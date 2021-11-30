@@ -1,0 +1,15 @@
+.wsf-elementor-form-selector {
+	padding: 20px;
+}
+
+.wsf-elementor-form-selector #wsf_logo {
+	display: block;
+	margin: 0 auto 20px;
+	max-width: 250px;
+}
+
+.wsf-elementor-form-selector select.wsf-field {
+	display: block;
+	margin: 0 auto;
+	max-width: 320px;
+}

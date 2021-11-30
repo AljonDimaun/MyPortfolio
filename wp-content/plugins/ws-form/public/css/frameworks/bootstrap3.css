@@ -1,0 +1,275 @@
+.wsf-form .col-xs-12,
+.wsf-form .col-sm-12,
+.wsf-form .col-md-12,
+.wsf-form .col-lg-12 {
+	float: left;
+}
+
+.wsf-form .input-group > label {
+	flex-basis: 100%;
+}
+
+.wsf-form [data-type='textarea'] .wp-editor-tabs {
+	box-sizing: content-box;
+}
+
+.wsf-form [data-type='textarea'] .mce-btn.mce-active button,
+.wsf-form [data-type='textarea'] .mce-btn.mce-active:hover button,
+.wsf-form [data-type='textarea'] .mce-btn.mce-active i,
+.wsf-form [data-type='textarea'] .mce-btn.mce-active:hover i {
+	color: #000;
+}
+
+[data-wsf-hierarchy='1'] {
+	-webkit-margin-start: 13px;
+	margin-inline-start: 13px;
+}
+
+[data-wsf-hierarchy='2'] {
+	-webkit-margin-start: 26px;
+	margin-inline-start: 26px;
+}
+
+[data-wsf-hierarchy='3'] {
+	-webkit-margin-start: 39px;
+	margin-inline-start: 39px;
+}
+
+[data-wsf-hierarchy='4'] {
+	-webkit-margin-start: 52px;
+	margin-inline-start: 52px;
+}
+
+[data-wsf-hierarchy='5'] {
+	-webkit-margin-start: 65px;
+	margin-inline-start: 65px;
+}
+
+[data-wsf-hierarchy='6'] {
+	-webkit-margin-start: 78px;
+	margin-inline-start: 78px;
+}
+
+[data-wsf-hierarchy='7'] {
+	-webkit-margin-start: 91px;
+	margin-inline-start: 91px;
+}
+
+[data-wsf-hierarchy='8'] {
+	-webkit-margin-start: 104px;
+	margin-inline-start: 104px;
+}
+
+[data-wsf-hierarchy='9'] {
+	-webkit-margin-start: 117px;
+	margin-inline-start: 117px;
+}
+
+[data-wsf-hierarchy='10'] {
+	-webkit-margin-start: 130px;
+	margin-inline-start: 130px;
+}
+
+.wsf-form input[type=text] ~ .dropzone {
+	background-color: #fff;
+	border: 1px dashed #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 15px 15px 0;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.wsf-form input[type=text] ~ .dropzone .dz-message {
+	color: #999;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.wsf-form input[type=text] ~ .dropzone.dz-started .dz-message {
+	display: none;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-dropzonejs-previews {
+	pointer-events: none;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-dropzonejs-preview {
+	cursor: move;
+	pointer-events: all;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-progress {
+	background-color: #f5f5f5;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	border-radius: 4px;
+	height: 10px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-progress .wsf-upload {
+	background-color: #337ab7;
+	height: 100%;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-progress.wsf-progress-success .wsf-upload {
+	background-color: #5cb85c;
+}
+
+.wsf-form input[type=text] ~ .dropzone .dz-complete .wsf-progress {
+	display: none;
+}
+
+.wsf-form input[type=text]:enabled ~ .dropzone.dz-drag-hover {
+	border-color: #66afe9;
+	border-style: solid;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.wsf-form input[type=text]:disabled ~ .dropzone {
+	background-color: #eee;
+	cursor: not-allowed;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.wsf-form input[type=text]:disabled ~ .dropzone .wsf-dropzonejs-preview {
+	opacity: .5;
+}
+
+.wsf-form.wsf-validated input[type=text]:invalid ~ .dropzone {
+	border-color: #a94442;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-invalid-feedback {
+	display: block;
+}
+
+.wsf-form input[type=text] ~ canvas {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: crosshair;
+	display: block;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.wsf-form input[type=text] ~ canvas:focus {
+	border-color: #66afe9;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+	outline: 0;
+}
+
+.wsf-form input[type=text]:disabled ~ canvas {
+	background-color: #eee;
+	cursor: not-allowed;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	pointer-events: none;
+	user-select: none;
+}
+
+.wsf-form input[type=text]:disabled ~ .help-block > [data-action='wsf-signature-clear'] {
+	display: none;
+}
+
+.wsf-form.wsf-validated input[type=text]:invalid ~ canvas {
+	border-color: #a94442;
+}
+
+.wsf-form .alert > *:last-child {
+	margin-bottom: 0;
+}
+
+.wsf-form.wsf-validated .form-control:invalid,
+.wsf-form.wsf-validated .form-control.wsf-invalid {
+	border-color: #a94442;
+}
+
+.wsf-form .wsf-invalid-feedback {
+	color: #a94442;
+	display: none;
+}
+
+.wsf-form.wsf-validated .form-control:invalid ~ .wsf-invalid-feedback,
+.wsf-form.wsf-validated [data-select-min-max]:invalid ~ .wsf-invalid-feedback,
+.wsf-form.wsf-validated input[type=checkbox]:invalid ~ .wsf-invalid-feedback,
+.wsf-form.wsf-validated [data-checkbox-min-max]:invalid ~ .wsf-invalid-feedback,
+.wsf-form.wsf-validated input[type=radio]:invalid ~ .wsf-invalid-feedback,
+.wsf-form.wsf-validated .form-control.wsf-invalid ~ .wsf-invalid-feedback {
+	display: block;
+}
+
+.wsf-form .wsf-hidden {
+	display: none !important;
+}
+
+.wsf-form .input-group {
+	align-items: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+}
+
+.wsf-form .input-group > .form-control,
+.wsf-form .input-group > .form-control ~ .select2-container,
+.wsf-form .input-group > input[type=text] ~ .dropzone,
+.wsf-form .input-group > input[type=text] ~ canvas {
+	display: table-cell;
+	flex: 1 1 auto;
+	float: left;
+	margin-bottom: 0;
+	min-width: 0;
+	position: relative;
+	width: 100%;
+	width: 1% !important;
+	z-index: 2;
+}
+
+.wsf-form .wsf-input-group-has-prepend > .form-control,
+.wsf-form .wsf-input-group-has-prepend > .form-control ~ .select2-container .select2-selection--single,
+.wsf-form .wsf-input-group-has-prepend > .form-control ~ .select2-container .select2-selection--multiple {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+.wsf-form .wsf-input-group-has-append > .form-control,
+.wsf-form .wsf-input-group-has-append > .form-control ~ .select2-container .select2-selection--single,
+.wsf-form .wsf-input-group-has-append > .form-control ~ .select2-container .select2-selection--multiple {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.wsf-form .input-group-addon {
+	line-height: inherit;
+	width: auto;
+}
+
+.wsf-form .wsf-input-group-has-prepend > .form-control {
+	border-bottom-right-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+}
+
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .form-control {
+	border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .wsf-input-group-append {
+	border-bottom-right-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+}
+
+.wsf-form .wsf-input-group-has-append > .wsf-input-group-append {
+	border-left: 0;
+	border-bottom-right-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+}
+
+.wsf-form .input-group > .help-block {
+	flex-basis: 100%;
+}

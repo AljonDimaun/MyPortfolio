@@ -1,0 +1,251 @@
+.wsf-form .input-group > label,
+.wsf-form .input-group > .form-text {
+	flex-basis: 100%;
+}
+
+.wsf-form [data-type='textarea'] .wp-editor-tabs {
+	box-sizing: content-box;
+}
+
+.wsf-form [data-type='textarea'] .mce-btn.mce-active button,
+.wsf-form [data-type='textarea'] .mce-btn.mce-active:hover button,
+.wsf-form [data-type='textarea'] .mce-btn.mce-active i,
+.wsf-form [data-type='textarea'] .mce-btn.mce-active:hover i {
+	color: #000;
+}
+
+[data-wsf-hierarchy='1'] {
+	-webkit-margin-start: 1rem;
+	margin-inline-start: 1rem;
+}
+
+[data-wsf-hierarchy='2'] {
+	-webkit-margin-start: 2rem;
+	margin-inline-start: 2rem;
+}
+
+[data-wsf-hierarchy='3'] {
+	-webkit-margin-start: 3rem;
+	margin-inline-start: 3rem;
+}
+
+[data-wsf-hierarchy='4'] {
+	-webkit-margin-start: 4rem;
+	margin-inline-start: 4rem;
+}
+
+[data-wsf-hierarchy='5'] {
+	-webkit-margin-start: 5rem;
+	margin-inline-start: 5rem;
+}
+
+[data-wsf-hierarchy='6'] {
+	-webkit-margin-start: 6rem;
+	margin-inline-start: 6rem;
+}
+
+[data-wsf-hierarchy='7'] {
+	-webkit-margin-start: 7rem;
+	margin-inline-start: 7rem;
+}
+
+[data-wsf-hierarchy='8'] {
+	-webkit-margin-start: 8rem;
+	margin-inline-start: 8rem;
+}
+
+[data-wsf-hierarchy='9'] {
+	-webkit-margin-start: 9rem;
+	margin-inline-start: 9rem;
+}
+
+[data-wsf-hierarchy='10'] {
+	-webkit-margin-start: 10rem;
+	margin-inline-start: 10rem;
+}
+
+.wsf-form .minicolors-theme-bootstrap .minicolors-swatch {
+	cursor: pointer;
+	height: 32px;
+	width: 32px;
+}
+
+.wsf-form .custom-file-label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.wsf-form input[type=text] ~ .dropzone {
+	background-color: #fff;
+	border: 1px dashed #ced4da;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	padding: 1rem 1rem 0;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.wsf-form input[type=text] ~ .dropzone .dz-message {
+	color: #6c757d;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.wsf-form input[type=text] ~ .dropzone.dz-started .dz-message {
+	display: none;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-dropzonejs-previews {
+	pointer-events: none;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-dropzonejs-preview {
+	cursor: move;
+	pointer-events: all;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-progress {
+	background-color: #e9ecef;
+	border-radius: 0.25rem;
+	height: .5rem;
+	margin-top: .25rem;
+	overflow: hidden;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-progress .wsf-upload {
+	background-color: #007bff;
+	height: 100%;
+}
+
+.wsf-form input[type=text] ~ .dropzone .wsf-progress.wsf-progress-success .wsf-upload {
+	background-color: #28a745;
+}
+
+.wsf-form input[type=text] ~ .dropzone .dz-complete .wsf-progress {
+	display: none;
+}
+
+.wsf-form input[type=text]:enabled ~ .dropzone.dz-drag-hover {
+	border-color: #80bdff;
+	border-style: solid;
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.wsf-form input[type=text]:disabled ~ .dropzone {
+	background-color: #e9ecef;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.wsf-form input[type=text]:disabled ~ .dropzone .wsf-dropzonejs-preview {
+	opacity: .5;
+}
+
+.wsf-form.was-validated input[type=text]:invalid ~ .dropzone {
+	border-color: #dc3545;
+}
+
+.wsf-form.was-validated input[type=text]:invalid ~ .dropzone.dz-drag-hover {
+	box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+}
+
+.wsf-form input[type=text] ~ .dropzone .invalid-feedback {
+	display: block;
+}
+
+.wsf-form input[type=text] ~ canvas {
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	cursor: crosshair;
+	display: block;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.wsf-form input[type=text] ~ canvas:focus {
+	border-color: #80bdff;
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.wsf-form input[type=text]:disabled ~ canvas {
+	background-color: #e9ecef;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	pointer-events: none;
+	user-select: none;
+}
+
+.wsf-form input[type=text]:disabled ~ .form-text > [data-action='wsf-signature-clear'] {
+	display: none;
+}
+
+.wsf-form.was-validated input[type=text]:invalid ~ canvas {
+	border-color: #dc3545;
+}
+
+.wsf-form.was-validated input[type=text]:invalid ~ canvas:focus {
+	box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+}
+
+.wsf-form .alert > *:last-child {
+	margin-bottom: 0;
+}
+
+.wsf-form.was-validated [data-select-min-max]:invalid ~ .invalid-feedback,
+.wsf-form.was-validated [data-checkbox-min-max]:invalid ~ .invalid-feedback {
+	display: block;
+}
+
+.wsf-form .wsf-hidden {
+	display: none !important;
+}
+
+.wsf-form .input-group > .custom-select ~ .select2-container,
+.wsf-form .input-group > input[type=text] ~ .dropzone,
+.wsf-form .input-group > input[type=text] ~ canvas {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	margin-bottom: 0;
+	min-width: 0;
+	position: relative;
+    width: 1% !important;
+}
+
+.wsf-form .input-group > .custom-select:not(:first-child)  ~ .select2-container .select2-selection--single,
+.wsf-form .input-group > .custom-select:not(:first-child)  ~ .select2-container .select2-selection--multiple {
+	border-bottom-left-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+}
+
+.wsf-form .wsf-input-group-has-prepend > .form-control,
+.wsf-form .wsf-input-group-has-prepend > .custom-select,
+.wsf-form .wsf-input-group-has-prepend > .custom-select ~ .select2-container .select2-selection--single,
+.wsf-form .wsf-input-group-has-prepend > .custom-select ~ .select2-container .select2-selection--multiple {
+	border-bottom-right-radius: 0.25rem !important;
+	border-top-right-radius: 0.25rem !important;
+}
+
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .form-control,
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .custom-select,
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .custom-select  ~ .select2-container .select2-selection--single,
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .custom-select  ~ .select2-container .select2-selection--multiple {
+	border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+.wsf-form .wsf-input-group-has-prepend.wsf-input-group-has-append > .input-group-append > .input-group-text {
+	border-bottom-right-radius: 0.25rem !important;
+	border-top-right-radius: 0.25rem !important;
+}
+
+.wsf-form .wsf-input-group-has-append > .input-group-append > .input-group-text {
+	border-bottom-right-radius: 0.25rem !important;
+	border-top-right-radius: 0.25rem !important;
+}
+
+.wsf-form .form-text {
+	width: 100%;
+}

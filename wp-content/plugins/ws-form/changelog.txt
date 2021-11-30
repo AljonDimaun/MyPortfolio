@@ -1,0 +1,2353 @@
+== Changelog ==
+
+= 1.8.147 =
+* Added: Support for repeat label hiding on H1 - H6 as well as legend
+* Added: Improved accessibility markup for repeatable section icons
+* Bug Fix: Section delete variable clean up
+* Bug Fix: Word and character count validation if help text empty
+
+= 1.8.146 =
+* Bug Fix: Database action auto archiving feature (cron action)
+
+= 1.8.145 =
+* Bug Fix: Welcome screen fixes for PC version of Chrome
+
+= 1.8.144 =
+* Bug Fix: Submission status filter links
+
+= 1.8.143 =
+* Bug Fix: Term lookup cache in post data source bug if term removed
+* Bug Fix: WooCommerce price meta data now converted to floating point
+
+= 1.8.142 =
+* Bug Fix: Calculations from select fields were processed as currency
+* Bug Fix: Rounding error in source field for calculations if commas used as decimal separator
+
+= 1.8.141 =
+* Bug Fix: Conversational URL link
+
+= 1.8.140 =
+* Added: Support for WooCommerce product meta data (Post management add-on)
+* Bug Fix: Debug populate number fields with step of 'any'
+
+= 1.8.139 =
+* Added: New functionality ready for Amazon S3 integration for file fields
+* Added: Form search
+* Added: Third parameter to #field_date_offset variable to allow formatting of output
+* Added: wsf_form_create_meta_data($meta_data) filter that allows meta data to be edited prior to form being created
+* Added: Cost by area template
+
+= 1.8.138 =
+* Added: intl-tel-input support for phone field. https://intl-tel-input.com/. Check 'Enable' under 'International Telephone Input' in the basic tab to use it.
+
+= 1.8.137 =
+* Changed: Server and blog date formats with upgraded WordPress date/time methods
+
+= 1.8.136 =
+* Changed: Improved third party custom field plugin detection and add-on initialization
+
+= 1.8.135 =
+* Added: #field_date_offset(field_id, offset_in_seconds) variable. Returns a date field with an offset added or subtracted in seconds.
+* Changed: Duration tracking is now switched off by default
+* Bug Fix: PHP 8 fix in Divi module
+
+= 1.8.134 =
+* Bug Fix: Duration cookie no longer set if duration tracking disable
+
+= 1.8.133 =
+* Bug Fix: Table prefix on Post data source when retrieving terms
+
+= 1.8.132 =
+* Added: 'Use URLs for file fields' setting in 'Push to Custom Endpoint' action
+* Added: reCaptcha V3 revisions
+* Changed: Submission export temporary folder location
+
+= 1.8.131 =
+* Bug Fix: Double quote detection in variable attributes
+
+= 1.8.130 =
+* Added: New hCaptcha field
+* Changed: Performance improvement on change triggering for cart detail fields
+
+= 1.8.129 =
+* Added: Migration from Gravity Forms 2.5 now supports column widths
+* Added: Ability to use #field to fields outside a repeatable section in #section_rows_start ... end
+* Bug Fix: Migrate tool submissions import meta data
+* Bug Fix: Meta Box checkbox issue in repeaters
+
+= 1.8.128 =
+* Added: Form level Google Analytics events
+* Added: gtm.formSubmit Google Tag Manager Form Submission trigger support
+* Added: Change event fired when Google Address fields populated
+
+= 1.8.127 =
+* Added: Latitude and longitude mapping for the Google Address field
+* Bug Fix: Parameter ordering issue for GA tracking objects
+
+= 1.8.126 =
+* Change: Improved detection of custom field plugins in multi-site environments
+* Bug Fix: Google Analytics event tracking for ga contained in tag manager
+* Bug Fix: Meta box repeater (group) fields not recognized in field mapping
+
+= 1.8.125 =
+* Added: New Google Address field allows you to auto populate address fields from a Google Places Autocomplete API search
+
+= 1.8.124 =
+* Added: Performance improvements with #calc and other price related calculations
+
+= 1.8.123 =
+* Added: New filter wsf_action_email_email_validate($valid, $email) added for filtering unwanted email addresses
+
+= 1.8.122 =
+* Added: Updated option checking in Meta Box and ACF classes
+* Bug Fix: Dedupe value scope processing issue
+
+= 1.8.121 =
+* Added: Increased length of form, tab, section and field labels to 1024 characters
+* Added: Improved database indexing
+
+= 1.8.120 =
+* Bug Fix: Tab validation misreported valid email address if field was not required
+
+= 1.8.119 =
+* Added: Toolset version check to ensure latest public functions are available
+
+= 1.8.118 =
+* Added: User ID set to current user ID when elements cloned in admin
+
+= 1.8.117 =
+* Added: Improved Elementor class declaration
+* Added: Improved SVG background image encoding in skin CSS
+* Bug Fix: HTML encoded labels for third party form selectors
+* Bug Fix: File count conditional logic when using file fields in repeaters
+
+= 1.8.116 =
+* Bug Fix: WooCommerce class PHP 8 compatibility
+
+= 1.8.115 =
+* Added: Toolset integration support for Post Management (1.4.0) add-on
+* Added: Toolset integration support for User Management (1.4.0) add-on
+* Added: Toolset field option data source
+* Bug Fix: Mouseover event on radio fields
+
+= 1.8.114 =
+* Added: Improved data sources so that column names retained but rows cleared on save
+
+= 1.8.113 =
+* Added: Ability to filter data source terms by those checked on a post
+
+= 1.8.112 =
+* Added: Support for conditional logic mouse events on select2 elements
+
+= 1.8.111 =
+* Added: Email field allow / deny values with wildcard (e.g. Allow *@wsform.com). Found in 'Advanced' tab.
+
+= 1.8.110 =
+* Added: Variable parsing on email header keys and values
+* Bug Fix: Submission count recalculated when record status set to trash
+
+= 1.8.109 =
+* Added: Ability to use fields that return multiple values (e.g. checkboxes) as #field in email action 'To' setting
+* Added: Ability to use variables with attributes embedded in #if statements
+* Added: Improved z-indexing in admin
+* Added: Improved time function handling per WordPress recommendations
+
+= 1.8.108 =
+* Added: Support for multiple textarea fields configured as type HTML
+* Added: Reset data grids if a field is saved with a data source selected to minimize form data size
+* Bug Fix: Cascade / AJAX select fields with no group data caused warning
+
+= 1.8.107 =
+* Added: URL element added to files in custom API endpoint action
+
+= 1.8.106 =
+* Bug Fix: Bulk Action Mark as Spam fixed
+
+= 1.8.105 =
+* Bug Fix: Encryption class includes for initial key generation
+
+= 1.8.104 =
+* Added: Conversion tracking now support variables
+* Bug Fix: Improvement to encryption class includes
+* Bug Fix: Elementor script and style enqueues
+
+= 1.8.103 =
+* Added: Ability to enable optgroup using the WordPress hook data source
+* Added: CSS for tooltips in labels, e.g. <span data-wsf-tooltip="Tooltip">Icon</span>
+* Added: Applied wpautop to message action content
+* Added: Improved data picker styles
+* Added: Booking template in section library
+* Bug Fix: Password visibility toggle
+* Bug Fix: Updated email regex pattern throughout to support new TLD's
+* Bug Fix: Inline date picker
+
+= 1.8.102 =
+* Added: Post statuses data source
+* Bug Fix: Lower track on range slider was not rendering if #value was missing from help setting
+
+= 1.8.101 =
+* Added: wsf_submit_clear_meta_filter_keys filter (Used for new feature in post management add-on version 1.3.2)
+* Bug Fix: Taxonomy list in post data source
+
+= 1.8.100 =
+* Added: Support for hidden sections in conversational forms
+* Bug Fix: Improved Meta Box field lookups to handle meta boxes assigned to more than one post type
+
+= 1.8.99 =
+* Added: Ability to self reference field when using #field in labels, placeholder and help
+* Bug Fix: Bug fix on conditional logic setting value using #field in repeatable section
+
+= 1.8.98 =
+* Added: Performance improvement on clearing select fields with conditional logic
+* Bug Fix: Save Submission field filtering
+* Bug Fix: Select conditional logic on load with AJAX cascading
+* Bug Fix: Repeatable sections in conversational forms now highlight all rows
+
+= 1.8.97 =
+* Added: Meter field type
+* Added: New section templates
+* Bug Fix: Various CSS fixes
+* Bug Fix: Data grid enter key press fix
+
+= 1.8.96 =
+* Bug Fix: Elementor pop-ups
+
+= 1.8.95 =
+* Added: Support for forms in preview mode in Elementor
+* Added: Row select value support for price select fields
+* Bug Fix: Pods Yes/No field data grid rows
+
+= 1.8.94 =
+* Added: Improvements to functions.php for later PHP versions
+* Changed: Behavior of rating field adjusted so that conditional logic does not fire on input
+
+= 1.8.93 =
+* Added: Cascading filter column comma separated value setting
+
+= 1.8.92 =
+* Added: LiteSpeed cache support
+* Added: Notion field ID support in sidebar select fields
+
+= 1.8.91 =
+* Added: #seconds_epoch_midnight client-side variable returns seconds elapsed since Unix Epoch up until the closest previous midnight
+* Bug Fix: Sidebar repeater select options were not disabling if value contained forward slashes in value
+* Bug Fix: Select fields configured to use Select2, multiple and tagging enabled were no appearing in #field variables server side
+
+= 1.8.90 =
+* Added: Support for comma separated values in cascading fields
+* Added: Hide Child Terms options in Terms data source (Only returns terms with a parent ID of 0)
+* Added: Automatic column mapping on 'Get Data' for data sources
+* Bug Fix: Data source save on sidebar conditional processing
+
+= 1.8.89 =
+* Added: Added checks to ensure Dropzone and Select2 JavaScript libraries are installed before initializing them
+
+= 1.8.88 =
+* Added: Improved check for Pods 2.8 Beta get_groups method
+
+= 1.8.87 =
+* Added: Additional support for Pods 2.8 Beta
+* Bug Fix: Dynamic data source update when form submitted
+
+= 1.8.86 =
+* Added: WordPress Filter Hook data source
+
+= 1.8.85 =
+* Bug Fix: Improved client side HTML encoding
+
+= 1.8.84 =
+* Added: Pods integration support for Post Management (1.3.0) add-on
+* Added: Pods integration support for User Management (1.3.0) add-on
+* Added: Pods field option data source
+
+= 1.8.83 =
+* Added: wsf-steps-checks class for adding checks to styled tabs
+* Bug Fix: Fixed invalid feedback reset on field focus
+
+= 1.8.82 =
+* Added: Improved performance on DropzoneJS uploads
+* Bug Fix: Modal CSS duplication removed
+
+= 1.8.81 =
+* Added: 'Exclude From Cart Total' setting on Price, Price Select, Price Checkbox, Price Radio and Price Range fields types. This excludes those fields from the e-commerce calculations so that they can be used for other functionality such as #calc.
+* Added: wsf-steps, wsf-vertical form wrapper classes for WS Form framework for tab styling
+* Added: wsf-sticky form wrapper, section wrapper and field wrapper classes for WS Form framework
+* Added: Tab accessibility improvements
+
+= 1.8.80 =
+* Bug Fix: select_option_text, checkbox_label and radio_label compatibility with repeatable sections
+
+= 1.8.79 =
+* Added: Placeholder option for Select2 with multiple selected
+* Added: License key now obscured after it is entered
+* Bug Fix: Select2 rendering
+
+= 1.8.78 =
+* Changed: Revised #post* variables for performance
+
+= 1.8.77 =
+* Added: Data export request containing registered user data
+
+= 1.8.76 =
+* Bug Fix: Field value form scope for #field
+* Bug Fix: $submit_object on wsf_submit_field_validate
+* Bug Fix: Data export request
+
+= 1.8.75 =
+* Added: Ability to hide reCAPTCHA in tabs, sections at field level
+* Bug Fix: Tab Google Analytics event firing
+
+= 1.8.74 =
+* Bug Fix: Function compatibility issue with WooCommerce extension
+
+= 1.8.73 =
+* Added: Multiple choice on Select, Checkbox and Radio IF conditions (OR logic)
+* Added: Round robin recipient logged in email action log on each submission
+
+= 1.8.72 =
+* Added: Option in email action to include links to file uploads and signatures
+* Added: CSV export now includes full paths to file upoads and signatures
+* Changed: E-Commerce status column in CSV export changed from 'Status' to 'Order Status' to avoid duplicate column name
+* Changed: On submission view, signatures now displayed with preview and download icons to match file upload fields
+
+= 1.8.71 =
+* Added: New functions: wsf_form_get_form_object & wsf_form_get_form_label
+
+= 1.8.70 =
+* Bug Fix: ACF data source finding choices in grouped or repeater fields
+
+= 1.8.69 =
+* Added: WordPress 5.8 compatibility testing
+* Added: PHP 8 compatibility testing
+* Added: wp_upload_dir known WordPress bug fix
+
+= 1.8.68 =
+* Added: Submissions CSV export system now builds in chunks if records exceed 500 to avoid timeouts
+* Added: Submissions CSV export system now zips CSV file if it exceeds 1/2 MB in size for convenience
+
+= 1.8.67 =
+* Added: Implemented fix for range slider browser bug
+
+= 1.8.66 =
+* Added: #calc / #text prioritizes attribute changes before default value changes
+* Changed: #calc / #text numeric values changed to 12 decimal point precision
+
+= 1.8.65 =
+* Added: ACF fix on LITE
+
+= 1.8.64 =
+* Added: Meta Box integration support for Post Management (1.2.0) add-on
+* Added; Meta Box integration support for User Management (1.2.0) add-on
+* Added: Meta Box field option data source
+* Added: Improved wpautop support throughout
+* Added: New conditional logic for form submit and save success
+* Bug Fix: Repeater column toggle in sidebar on row add
+* Bug Fix: Wildcard file accept
+* Bug Fix: Bootstrap 5 tabs
+* Bug Fix: Checkbox fix in customize
+* Bug Fix: Conversation form made PRO
+
+= 1.8.63 =
+* Added: Hierarchy support for terms data source (Display as Hierarchy setting)
+
+= 1.8.62 =
+* Added: #calc / #text support for min / max field attributes
+* Added: Min / max support for price fields in conditional logic
+
+= 1.8.61 =
+* Bug Fix: Progress bar assigned to tabs
+
+= 1.8.60 =
+* Added: ACF field validation (filter: acf/validate_value) for post and user management actions
+* Added: ACF oEmbed field type support
+* Changed: Code optimization in public.js
+* Bug Fix: Tab click events in conditional logic
+
+= 1.8.59 =
+* Bug Fix: Form preview rendering in Gutenberg
+* Bug Fix: Field encoding post management populate values
+
+= 1.8.58 =
+* Changed: Currency symbols to match WooCommerce
+
+= 1.8.57 =
+* Bug Fix: Form submission limit
+
+= 1.8.56 =
+* Bug Fix: Message action delay
+
+= 1.8.55 =
+* Added: Change to placeholder CSS on inside field label positioning
+* Changed: Bricks element updated due to function names changing in Bricks theme core
+
+= 1.8.54 =
+* Added: Hovering over tabs, sections and fields in the layout editor with the conditional logic sidebar open now highlights any conditional rows that contain those form elements
+
+= 1.8.53 =
+* Bug Fix: Required span on calculated labels
+* Bug Fix: Calc firing on repeatable section row count changes
+
+= 1.8.52 =
+* Added: Error logging on invalid feedback client side action
+
+= 1.8.51 =
+* Added: Bootstrap 5 launch compatibility checks
+
+= 1.8.50 =
+* Bug Fix: Conversational style dequeuing
+
+= 1.8.49 =
+* Bug Fix: #email_tracking variable in email templates
+
+= 1.8.48 =
+* Added: Conversational forms (Beta)
+* Changed: PRO licensing
+* Bug Fix: Numeric value return on data sources pulling ACF meta data
+
+= 1.8.47 =
+* Bug Fix: Initial CSS build error
+
+= 1.8.46 =
+* Added: Server-side form validation hook (https://wsform.com/knowledgebase/custom-server-side-form-validation/)
+* Added: Performance improvements with CSS engine
+* Bug Fix: Form deletion
+
+= 1.8.45 =
+* Added: Date field: Disabled days
+* Added: Date field: Disabled dates
+* Added: Date field: Enabled dates
+
+= 1.8.44 =
+* Bug Fix: Visual editor CSS file path issue
+
+= 1.8.43 =
+* Bug Fix: x_wp_nonce JS error
+
+= 1.8.42 =
+* Added: RTL support for new compiled skin system
+
+= 1.8.41 =
+* Bug Fix: Redirect URL parsing now uses text/plain method
+
+= 1.8.40 =
+* Bug Fix: Select all fixed on data grids using dynamic data sources
+
+= 1.8.39 =
+* Added: Suggested knowledge base articles on support contact form
+* Bug Fix: ACF numeric field value population in select, checkbox and radio fields
+* Bug Fix: Min / max date validation
+
+= 1.8.38 =
+* Added: Improved default invalid feedback text by field type
+* Added: Improved appearance of legal field for Foundation framework
+* Bug Fix: Server date fix for certain JavaScript engines
+
+= 1.8.37 =
+* Added: Name to section library (first name, last name)
+* Bug Fix: Applied pre_render filter to submit API call
+
+= 1.8.36 =
+* Added: Round robin support for the Send Email action
+* Added: Box shadow customization
+* Added: Updated version of date time picker JS
+
+= 1.8.35 =
+* Added: Support for #text and #calc containing #select_option_text
+* Bug Fix: #text on date fields
+
+= 1.8.34 =
+* Changed: Improved and consolidated admin UI icons
+* Bug Fix: 0 values to ACF fields
+
+= 1.8.33 =
+* Bug Fix: Minor bug fix for legacy PHP versions and autocomplete data
+* Bug Fix: Validation of dates with period separators fixed for certain JavaScript engines
+
+= 1.8.32 =
+* Bug Fix: Dependencies fix
+
+= 1.8.31 =
+* Added: Improvement to Elementor pop-up handling
+* Added: Calc enabled from HTML fields
+* Added: Spacer height setting
+* Added: Enqueued script dependency filters (for PayTrace)
+* Added: CSS recompiled on upgrade
+* Changed: Delete icon continuity throughout admin
+* Bug Fix: Bricks preview now uses form preview
+* Bug Fix: Select2 CSS
+
+= 1.8.30 =
+* Added: Enabled #text on server side to allow static fields to render correctly
+* Bug Fix: Price range slider help now correctly formats prices using #ecommerce_price
+* Bug Fix: Running actions with conditional logic no longer issues a session ID
+
+= 1.8.29 =
+* Added: Hide tabs option (Form --> Settings)
+* Bug Fix: Elementor double initializing form events
+
+= 1.8.28 =
+* Bug Fix: Shortcode for Oxygen on public contained visual editor attribute
+
+= 1.8.27 =
+* Added: Bricks Element (https://bricksbuilder.io/)
+* Changed: #pos to #positive, #neg to #negative for future compatibility
+
+= 1.8.26 =
+* Added: New variable: #min(value, value ...) - Returns the minimum of the supplied values
+* Added: New variable: #max(value, value ...) - Returns the maximum of the supplied values
+* Added: New variable: #neg(value) - Returns the 0 if positive, original value if negative
+* Added: New variable: #pos(value) - Returns the 0 if negative, original value if positive
+
+= 1.8.25 =
+* Added: Improved preview template auto detection
+* Added: Improved support for performance optimization plugins
+
+= 1.8.24 =
+* Added: Improved Gutenberg block rendering
+
+= 1.8.23 =
+* Added: Debug console now removes existing instances if wsf_form_init called
+
+= 1.8.22 =
+* Added: Ability to use step of 'any' on number fields
+* Bug Fix: Elementor modals
+
+= 1.8.21 =
+* Added: WS Form Oxygen element
+* Added: Improvements to JavaScript ws_form_init() function (Reinitializes all forms)
+* Added: Improved Beaver Builder, Elementor form initialization
+* Added: Improved Gutenberg block functionality
+* Added: Note that field deduplication does not work with encryption
+* Bug Fix: #calc on multiple select
+* Bug Fix: Gutenberg block SVG
+
+= 1.8.20 =
+* Added: Client side #section_rows_start(section_id) / #section_rows_end
+
+= 1.8.19 =
+* Changed: Removed 'Read more' link from visual editor in admin
+* Bug Fix: Visual editor link dialog flashed in Chrome if sidebar was minimized (Known Chrome issue)
+* Bug Fix: Military format for time in date field
+
+= 1.8.18 =
+* Added: #text(field_id) variable (Allows you to duplicate field values in other fields)
+* Added: User status options for tabs (Logged in, logged out, user role, user capability)
+* Added: User status options for sections (Logged in, logged out, user role, user capability)
+* Added: User logged in, logged out, role and capability conditional logic IF conditions
+* Bug Fix: Encryption during WooCommerce checkout
+
+= 1.8.17 =
+* Added: Custom Email HTML template
+* Added: Email Validation template
+* Added: Spam level set to 0 on validated submissions
+* Bug Fix: Validation of european date formats using periods
+
+= 1.8.16 =
+* Added: #section_rows_start(section_id) / #sections_row_end for email templates
+* Added: Public config script optimizations
+* Bug Fix: Media library uploads
+
+= 1.8.15 =
+* Bug Fix: Fixed hidden field validation for conditional logic validation
+
+= 1.8.14 =
+* Added: Improved checks on conditional logic object integrity
+* Added: Implemented workaround for select2 not behaving properly with dynamically disabled options
+
+= 1.8.13 =
+* Bug Fix: Conditional logic icons if condition deleted
+
+= 1.8.12 =
+* Added: Improved signature validation
+* Added: Server side #ecommerce_price function
+* Added: Signature 'Clear' link text setting
+* Added: Google Map 'Reset' link text setting
+* Added: Password strength and visibility toggle text settings
+* Added: Various Bootstrap and Foundation CSS improvements
+
+= 1.8.11 =
+* Added: WordPress 5.7 testing
+* Added: Support for tab conditional logic in Bootstrap and Foundation
+
+= 1.8.10 =
+* Bug Fix: Conditional logic object ID lookups on form import
+* Bug Fix: Next / previous buttons on forms with tab validation
+* Bug Fix: Inside label positioning on e-commerce cart total field
+
+= 1.8.9 =
+* Added: Conditional logic icons on tabs, sections and fields
+* Added: Highlight tabs, sections and fields when editing a condition
+
+= 1.8.8 =
+* Bug Fix: Email template parsing
+
+= 1.8.7 =
+* Bug Fix: Next / previous tab navigation on conditional logic disable
+* Bug Fix: Parse variable processing fix (Server-side)
+
+= 1.8.6 =
+* Bug Fix: Media library upload with default file upload field
+
+= 1.8.5 =
+* Bug Fix: New form default settings
+
+= 1.8.4 =
+* Bug Fix: Required signatures on save
+
+= 1.8.3 =
+* Added: Password visibility toggle icon
+* Added: Email validation via link in email
+* Added: Validate before saving option on save field
+* Bug Fix: Action format at on submission save
+
+= 1.8.2 =
+* Bug Fix: Tab next/previous buttons if tab hidden with conditional logic
+
+= 1.8.1 =
+* Bug Fix: Custom validity removal on hidden fields
+
+= 1.8.0 =
+* Added: Section Library
+* Added: Section Library (Pre-built and 'My Sections' feature)
+* Added: Section and tab import and export
+* Added: Section and tab add to 'My Sections'
+* Added: Improved tab management in layout editor (settings no longer obscure tab names)
+* Added: Performance improvement: Compiled CSS global setting
+* Added: Compliance with SCRIPT_DEBUG constant throughout (Minified CSS setting removed from Global Settings)
+* Added: Compiled and inline CSS enabled by default for new users
+* Added: Field and section search in Toolbox
+* Added: Various layout editor UI improvement
+* Added: DropzoneJS timeout setting
+* Added: Improve statistics gathering methods and error checking
+* Added: Latest version of DropzoneJS
+* Changed: Removed prefix on form error alerts
+* Bug Fix: Foundation 6+ Abide initialization on WooCommerce product pages
+* Bug Fix: Data encryption learn more link
+
+= 1.7.158 =
+* Bug Fix: File handler pre_get_posts function
+
+= 1.7.157 =
+* Added: Priority option on 'Run WordPress hook' action. Can now be run before or after other actions.
+
+= 1.7.156 =
+* Added: New modes for add view script
+
+= 1.7.155 =
+* Added: Performance improvement: New hooks for add-ons to enqueue scripts if field type exists in form
+* Added: Performance improvement: New hook for add-ons to append framework and skin CSS
+* Added: Performance improvement: Faster add view script
+
+= 1.7.154 =
+* Bug Fix: Firefox scrolling in layout editor
+
+= 1.7.153 =
+* Added: None option on button and message types which removes type class
+
+= 1.7.152 =
+* Added: Select2 minimum and maximum selection
+* Added: Select2 tags option
+* Added: Populate search fields
+* Added: Fixed header in layout editor
+* Bug Fix: Submission ordering
+
+= 1.7.151 =
+* Bug Fix: Column count setting
+
+= 1.7.150 =
+* Added: Support for comma separated REMOTE_ADDR server variable (Proxied IP)
+* Added: Support tabs embedded within third party tabs
+* Added: Human Resources templates
+* Bug Fix: Submission hidden column user meta option now deleted if form deleted
+
+= 1.7.149 =
+* Added: Tab show/hide conditional logic
+* Added: Tab hidden setting
+* Added: Placeholders and default values for the customize feature
+
+= 1.7.148 =
+* Bug Fix: Action list and sub list selected
+
+= 1.7.147 =
+* Added: New templates
+* Bug Fix: Mapping of file sizes and mime types from ACF field definitions
+
+= 1.7.146 =
+* Added: First day of the week setting on jQuery date field
+
+= 1.7.145 =
+* Added: File hander class methods for cloud file storage
+* Added: Deduplication at a field level within specified period
+
+= 1.7.144 =
+* Added: Set HTML conditional logic action for message fields
+* Bug Fix: wpautop applied on message content set with conditional logic
+
+= 1.7.143 =
+* Bug Fix: Form post lock fix
+
+= 1.7.142 =
+* Added: PHP 8 testing
+* Added: New checkbox and radio styling classes
+* Changed: Various code improvements throughout
+
+= 1.7.141 =
+* Bug Fix: Hiding number fields with step
+
+= 1.7.140 =
+* Bug Fix: Message JS action
+
+= 1.7.139 =
+* Added: Errors settings in Form Settings side bar
+* Added: New form complete and error conditional logic
+* Changed: File upload size error message to show MB, GB
+
+= 1.7.138 =
+* Added: #field_float variable
+
+= 1.7.137 =
+* Added: New #submit_url and #submit_link variables for use in emails sent during save for recalling submissions
+* Added: Enable save cookie setting
+
+= 1.7.136 =
+* Added: New functionality added for Stripe subscriptions
+
+= 1.7.135 =
+* Added: #section_row_index and #section_row_number variables
+* Added: Conditional logic for DropzoneJS (file count and events)
+
+= 1.7.134 =
+* Added: Ability to set quantity min, max and step with conditional logic
+* Bug Fix: DropzoneJS capture attribute
+* Bug Fix: Removed invalid event on inputmask fields to prevent bug with input mask jquery library
+* Bug Fix: Run action immeditely
+
+= 1.7.133 =
+* Bug Fix: Duplicate attachments created on ACF record update using DropzoneJS
+
+= 1.7.132 =
+* Bug Fix: Removed min value on progress bar field
+
+= 1.7.131 =
+* Added: Ability to offset custom date variables by seconds
+
+= 1.7.130 =
+* Added: Ability to set minimum / maximum selected on select fields using conditional logic
+* Added: Ability to set minimum / maximum checked on checkbox fields using conditional logic
+* Added: Ability to set min, max, step on number and range fields using conditional logic
+
+= 1.7.129 =
+* Added: ACF file field type mapped as DropzoneJS
+
+= 1.7.128 =
+* Changed: clearMaskOnLostFocus input mask setting changed on basic fields (Reverted)
+
+= 1.7.127 =
+* Added: Form and submission level variable parsing in JavaScript action
+
+= 1.7.126 =
+* Changed: clearMaskOnLostFocus input mask setting changed on basic fields
+
+= 1.7.125 =
+* Bug Fix: Localization of #if(...) with #calc in repeaters
+
+= 1.7.124 =
+* Bug Fix: Invalid submission hash error handling
+
+= 1.7.123 =
+* Bug Fix: Sub type fix
+
+= 1.7.122 =
+* Added: Ability to embed static field content with #field variable
+
+= 1.7.121 =
+* Bug Fix: Signature file processing
+
+= 1.7.120 =
+* Added: Excluding static content in emails templates with conditional logic
+
+= 1.7.119 =
+* Added: Map type / zoom retained when form saved
+
+= 1.7.118 =
+* Added: Tracking pixel / server side statistics setting
+* Added: Sortable DropzoneJS previews
+* Bug Fix: Form lock on DropzoneJS upload with populated files
+
+= 1.7.117 =
+* Bug Fix: ACF boolean field
+
+= 1.7.116 =
+* Changed: Google Map address lookup now only occurs on map click
+
+= 1.7.115 =
+* Added: DropzoneJS functionality for file fields with full responsive grid support
+* Added: DropzoneJS capture support for front and user facing camera captures
+* Added: Minimum and maximum file size settings
+* Added: Maximum file upload setting
+* Added: WordPress (Public) file upload support
+* Added: Submission duration tracking now a setting so it can be disabled
+* Added: Added support for ACF gallery field type
+* Changed: Changed layout of conventional file field to match other fields to support drag and drop / prefix / suffix
+* Bug Fix: Script dequeuing fix for third party plugins that enqueue their scripts everywhere
+* Bug Fix: Field mapping excluded password fields
+
+= 1.7.114 =
+* Bug Fix: Tab validation
+
+= 1.7.113 =
+* Added: Additional ARIA attribute support
+* Added: Custom meta to message fields
+* Added: Performance improvements
+* Added: Ability to use variables in custom attribute values
+* Bug Fix: Data grid CSV import empty line
+* Bug Fix: Debug number randomization
+* Bug Fix: Bypass script
+
+= 1.7.112 =
+* Added: New autocomplete field attribute options
+* Added: Elementor pop-up compatibility and improved user interface on widget
+
+= 1.7.111 =
+* Added: #if() ... #endif variable, e.g. #if(#field(123) == "my value")Show this if field ID 123 equals "my value"#endif (BETA)
+* Bug Fix: Select2 with pre-loaded options
+* Bug Fix: Email media file attachments
+
+= 1.7.110 =
+* Changed: Date presentation functions
+
+= 1.7.109 =
+* Added: Cascading checkboxes and radios retain original checked value when rendered
+* Added: Term data source meta data columns, including ACF support
+* Added: User data source meta data columns, including ACF support
+
+= 1.7.108 =
+* Added: Improved select2 full script handling
+* Added: SVG template Google Map field
+* Changed: Email sidebar fields to be type text instead of email to avoid native errors when entering # variables
+
+= 1.7.107 =
+* Added: Google Map field type
+* Bug Fix: reCAPTCHA version 3 fix
+
+= 1.7.106 =
+* Added: ACF option filtering by post
+
+= 1.7.105 =
+* Added: WordPress 5.6 support
+* Added: Deregister on scripts that other plugins have not localized to their admin pages
+
+= 1.7.104 =
+* Added: Form meta repair routine for import to remap field ID's
+* Bug Fix: Form populate section repeatable
+* Bug Fix: Conditional logic firing form save on form load in preview mode
+
+= 1.7.103 =
+* Added: Final round of IE11 compatibility work
+
+= 1.7.102 =
+* Added: Post data source meta data columns, including ACF support
+* Added: Select2 / Cascading support of data source searching
+
+= 1.7.101 =
+* Bug Fix: Conditional logic disabled field
+
+= 1.7.100 =
+* Bug Fix: Conditional logic required field
+
+= 1.7.99 =
+* Added: Bootstrap 5 inside label positioning support
+* Bug Fix: Left / right label positioning
+
+= 1.7.98 =
+* Added: Support for Oxygen visual builder
+
+= 1.7.97 =
+* Added: Inside label positioning (Use WordPress Customize -> WS Form -> Advanced to change positioning / scale)
+
+= 1.7.96 =
+* Changed: Default values accept variables regardless of mode selected
+* Added: Placeholder on step setting
+
+= 1.7.95 =
+* Added: Icon tooltips
+* Added: Various admin UI improvements
+* Added: WCAG compliant interface colors
+* Added: Filtered field list for action mapping
+* Bug Fix: Debug HTML encoding fix in log
+
+= 1.7.94 =
+* Bug Fix: Conditional logic action running
+
+= 1.7.93 =
+* Added: Improvements to object, action and conditional logic save / save & close methods
+* Bug Fix: Elementor frontend fix
+
+= 1.7.92 =
+* Added: Improved form populate null checks
+
+= 1.7.91 =
+* Added: Framework improvements for required fields
+* Added: Layout editor UI improvements
+
+= 1.7.90 =
+* Added: Error handling disabled in visual builder previews
+* Bug Fix: Inline CSS rendering in Gutenberg
+
+= 1.7.89 =
+* Bug Fix: Upload mime type filtering in repeatable sections
+
+= 1.7.88 =
+* Added: Changes made to improve compatibility with WP Rocket
+
+= 1.7.87 =
+* Added: Form level restrictions by user role and/or capabilities
+* Added: Field level restrictions by user role and/or capabilities
+* Added: Data grid row variables 
+* Bug Fix: Required file uploads on hidden file fields
+
+= 1.7.86 =
+* Bug Fix: Removed form ID check on submit db_update
+* Bug Fix: Minor fix on plugin page links
+
+= 1.7.85 =
+* Bug Fix: Column mapping on select2 AJAX searching
+
+= 1.7.84 =
+* Bug Fix: Admin function hook adjustment to ensure CPTs recognized by post management add-on
+
+= 1.7.83 =
+* Added: Further improvements and additions to the template library
+* Added: Hidden field value setting and resetting with conditional logic
+* Added: Improved API call error response handling with KB support
+* Bug Fix: #calc registration in submissions editor sidebar
+* Bug Fix: #calc log events when debug not shown
+* Bug Fix: Mobile to desktop breakpoint sidebar handling in admin
+
+= 1.7.82 =
+* Bug Fix: Gutenberg block
+
+= 1.7.81 =
+* Added: Improved template library layout and dynamic SVG generator
+* Added: Media attachments for send email action
+* Bug Fix: Ratings field on mobile
+
+= 1.7.80 =
+* Added: Functionality added for WooCommerce extension version 1.1.41
+* Added: Calculated templates
+* Added: Read only attribute on rating field type
+* Bug Fix: Progress bar events when repeatable section row added
+* Bug Fix: Double clicking on field labels while editing
+
+= 1.7.79 =
+* Added: wsf_form_init() function to allow adhoc forms to be initialized
+
+= 1.7.78 =
+* Added: Form statistics reset
+
+= 1.7.77 =
+* Bug Fix: Conditional logic optgroups
+
+= 1.7.76 =
+* Added: Prefix and suffix support on fields (Fully Bootstrap and Foundation compatible using input groups)
+* Bug Fix: Latest version of CodeMirror caused re-initialize issue
+
+= 1.7.75 =
+* Changed: Improved auto else feature on conditional logic so it doesn't apply to event conditions
+* Bug Fix: Signature reset conditional logic action firing event
+* Bug Fix: Color field reset updating minicolor jQuery component
+
+= 1.7.74 =
+* Added: Select2 option on select fields (Supports AJAX)
+* Added: Ability to override form element ID in shortcode (element_id)
+* Added: Ability to override form element ID in block
+* Added: Exclude hidden fields option under screen options in Submissions
+* Changed: Clear hidden fields functionality improved
+
+= 1.7.73 =
+* Bug Fix: Required conditional logic action
+
+= 1.7.72 =
+* Added: Undo, redo and undo history now updates preview
+* Changed: Further conditional logic performance improvements
+
+= 1.7.71 =
+* Added: Additional tutorial items
+* Changed: Conditional logic performance improvements
+* Changed: Repeatable section performance improvements
+* Changed: Debug console log performance improvements
+* Bug Fix: Action and conditional logic read only header
+
+= 1.7.70 =
+* Added: Time min/max and invalid input validation on fields using jQuery date/time picker
+* Bug Fix: CodeMirror initialization on hidden fields
+
+= 1.7.69 =
+* Bug Fix: Return/enter events on input fields
+* Bug Fix: Repeatable section hidden fields not cleared
+
+= 1.7.68 =
+* Added: Field label save on return/enter
+* Bug Fix: Initial action label saving
+
+= 1.7.67 =
+* Added: Hidden behavior options on fields: Always Include in Actions, Always Include in Cart Total
+* Added: Ability to edit e-commerce fields in submissions (Setting)
+* Bug Fix: Show all if no results option on cascading selects (Non-AJAX)
+
+= 1.7.66 =
+* Added: File upload image, video and audio previewing
+
+= 1.7.65 =
+* Bug Fix: Checkbox and radio grids with cascading values
+
+= 1.7.64 =
+* Added: Hidden fields are cleared in emails by default (Can be disabled)
+* Added: Hidden fields can be cleared in submissions
+* Bug Fix: Validation on hidden fields (HTML 5 compatible)
+* Bug Fix: Removed title and meta from fallback preview template
+* Bug Fix: Required hidden fields
+
+= 1.7.63 =
+* Bug Fix: wsf-rendered trigger
+
+= 1.7.62 =
+* Added: Form rendered condition
+* Added: Cascading support on multi selects
+* Bug Fix: Form navigation firing order
+
+= 1.7.61 =
+* Added: AJAX cascading select fields
+* Added: Cascading checkboxes
+* Added: Support for text, number, range, and rating fields as cascading inputs
+* Added: Placeholder text for cascading fields (No results and loading for AJAX requests)
+* Added: Improved loader when adding a new form
+* Bug Fix: Repeatable section icon coloring
+* Bug Fix: Data grid page selectors for high numbers
+
+= 1.7.60 =
+* Added: Filter by author in post data source
+* Changed: Checkbox and radio styling in WS Form framework
+* Bug Fix: Select cascading in Safari
+
+= 1.7.59 =
+* Added: Performance improvements
+* Added: Improved presentation of dragged fields
+* Changed: System table reorganization
+* Bug Fix: Min, max validation of fields in repeatable sections
+* Bug Fix: Cascading removing events
+
+= 1.7.58 =
+* Added: Deduplication of select, radio and checkbox options across repeatable sections
+
+= 1.7.57 =
+* Bug Fix: CodeMirror saving in sidebar
+
+= 1.7.56 =
+* Added: Improved hide/show conditional logic performance
+
+= 1.7.55 =
+* Added: Retained file uploads on form save
+* Added: Visual tickmarks on range sliders (Chrome only)
+* Added: Custom file upload button label setting
+
+= 1.7.54 =
+* Bug Fix: Image selector in data grids
+
+= 1.7.53 =
+* Added: Sorting on sidebar repeaters
+* Bug Fix: Set custom validity on radio field
+
+= 1.7.52 =
+* Bug Fix: Column mapping indexes / ids
+
+= 1.7.51 =
+* Added: Ability to to set min / max dates based on + / - days using +1970-01-05 format (e.g. + 4 days)
+* Added: Improved detection of date time picker presence (avoids clash with Divi date time picker)
+
+= 1.7.50 =
+* Added: Human Presence spam protection
+* Changed: Akismet spam protection now found under Form Settings, Spam tab
+
+= 1.7.49 =
+* Added: Save form list orderby and order settings by user
+* Added: Validation for dates with ordinal indicators
+* Changed: Removed DELETE and PUT verbs throughout
+
+= 1.7.48 =
+* Added: Minor sidebar CSS fixes
+* Bug Fix: Set custom validity only if field will validate
+
+= 1.7.47 =
+* Added: Conditional logic date comparison for d/m/Y format
+* Changed: Improved Form Settings sidebar layout
+* Changed: Improved sidebar CSS throughout
+
+= 1.7.46 =
+* Changed: Updated date time picker jQuery component
+
+= 1.7.45 =
+* Bug Fix: Field bypassing on hidden file fields
+* Bug Fix: Initial rendering of publish button after performance improvements
+
+= 1.7.44 =
+* Added: Language support on jQuery date time picker
+* Bug Fix: Select all on bulk edit in data grids
+
+= 1.7.43 =
+* Added: Min and max date validation on jQuery date picker
+* Added: autocomplete options for fields
+
+= 1.7.42 =
+* Added: Submissions export filtered by date range
+* Added: Improved loading speed of submissions and layout editor
+* Changed: Submissions date columns formatted according to field settings
+
+= 1.7.41 =
+* Bug Fix: Conditional logic for actions
+
+= 1.7.40 =
+* Changed: Select2 REST API authentication for WordPress 5.5+
+* Bug Fix: Invalid feedback targeting in conditional logic actions
+
+= 1.7.39 =
+* Bug Fix: Submission column ordering
+
+= 1.7.38 =
+* Added: Populate field triggering fallback
+* Bug Fix: Calc registration on conditional logic actions
+* Bug Fix: Conditional logic setting values on price field now currency formatted for input currency mask
+
+= 1.7.37 =
+* Bug Fix: Event firing in multiple conditional groups
+* Bug Fix: Conditional logic field targeting
+
+= 1.7.36 =
+* Bug Fix: Localization of conditional logic in same section
+
+= 1.7.35 =
+* Bug Fix: Fallback calc value
+
+= 1.7.34 =
+* Added: Support for calc with price column mapping
+* Bug Fix: Calc on negative price values
+
+= 1.7.33 =
+* Added: Price subtotal and cart total fields now trigger calc fields
+* Bug Fix: Minor edit on 'Read Only' setting in admin
+
+= 1.7.32 =
+* Added: New reset and clear icons for repeatable section
+* Added: Tab, section and field reset and clear conditional logic actions
+* Added: Setting to show all options if cascading lookup cannot find a match
+* Changed: Improved conditional logic targeting on repeatable sections
+
+= 1.7.31 =
+* Added: Various layout editor UI improvements
+* Bug Fix: Stacked conditional logic actions
+* Bug Fix: Deleted conditional groups caused logic previous to be incorrect
+
+= 1.7.30 =
+* Changed: Select, radio and checkbox price mapping can now contain values with currency
+
+= 1.7.29 =
+* Added: #section_row_count now works on initial form load
+* Bug Fix: Repeatable section radio and checkbox value conditional logic
+* Bug Fix: Conditional logic firing when sections are cloned
+
+= 1.7.28 =
+* Added: Support for optgroups and fieldsets in cascading select and radio fields
+* Bug Fix: Tab selection in Bootstrap 5
+* Bug Fix: Data grid column delete removed for single column grids
+
+= 1.7.27 =
+* Added: Conditional logic for checked count equals, does not equal, greater than, less than on checkbox fields
+* Added: Conditional logic for selected count equals, does not equal, greater than, less than on select fields
+* Added: Max checked count limits checking additional checkboxes on checkbox fields
+* Added: Max selected count limits selecting additional options on select fields
+
+= 1.7.26 =
+* Added: Debug populate feature now excludes fields with calculated values
+* Added: Improved debug populate event firing
+* Bug Fix: Price select cascading column selection fix
+
+= 1.7.25 =
+* Added: Ability to include dividers in emails
+* Added: Added wpautop to text editor field output in emails
+* Added: Full width value fields in expanded conditional logic view
+* Bug Fix: Deactivation fixed if moving between hostnames
+* Bug Fix: Added additional new lines to email content to avoid hitting line limit
+* Bug Fix: @unserialize was incorrectly causing errors in WP 5.5 so changed this to is_serialized method
+* Bug Fix: Removed double <p> tags in email content caused by output of wpautop
+
+= 1.7.24 =
+* Added: Dismiss nag fixed
+
+= 1.7.23 =
+* Added: Action variable column mapping on price select, checkbox and radio fields
+
+= 1.7.22 =
+* Added: LinkedIn conversion tracking
+* Changed: Improved settings layout
+* Bug Fix: Foundation checkbox and radio field markup
+
+= 1.7.21 =
+* Added: Improved support for WAF 403 errors
+* Changed: X-HTTP-Method-Override disabled by default
+
+= 1.7.20 =
+* Added: Support for minumum and maximum selected/checked in progress bar calculations
+* Added: Minimum and maximum checked on price checkbox
+* Added: Minimum and maximum selected on price select
+* Changed: Improved support for min and max dates for native and jQuery date picker
+
+= 1.7.19 =
+* Added: Ability to add click events to navigation buttons
+* Bug Fix: Reset and clear applying to fields in repeatable sections
+
+= 1.7.18 =
+* Added: Improved rendering of images in submissions table
+* Bug Fix: Wrapping submission labels
+* Bug Fix: Count submit unread API for submissions
+
+= 1.7.17 =
+* Added: Section width support for action update_form method
+
+= 1.7.16 =
+* Bug Fix: Unchecked checkboxes now equals 0 in calculations
+
+= 1.7.15 =
+* Added: Table CSS added to override issue caused by poor CSS selectors in third party plugins
+* Bug Fix: Divi shortcode
+
+= 1.7.14 =
+* Bug Fix: ID's on multiple case sensitive checkboxes in conditional logic
+
+= 1.7.13 =
+* Added: #pow(base, exponent) variable
+* Added: #ecommerce_price(number) variable
+* Added: Array to comma delimited setting in custom endpoint action
+* Changed: Revised REST endpoint declarations to meet 5.5 requirements
+
+= 1.7.12 =
+* Added: Public and mobile toolbar menu features
+
+= 1.7.11 =
+* Added: Admin toolbar menu features
+
+= 1.7.10 =
+* Added: select_option_text, checkbox_label, radio_label as server side variables
+* Bug Fix: Required attributes on variables
+
+= 1.7.9 =
+* Added: Bootstrap 5 framework support
+* Added: Hooks for TinyMCE configuration
+* Added: Improved welcome screen
+* Bug Fix: Case sensitivity in conditional logic
+* Bug Fix: Gutenberg block fix for visual editor
+
+= 1.7.8 =
+* Added: Data grid 'Insert Image' icon
+* Added: Select field minimum and maximum selected
+
+= 1.7.7 =
+* Added: Section ID's hidden in emails if they are empty
+* Bug Fix: Pre-parsing
+
+= 1.7.6 =
+* Bug Fix: Calculated field
+
+= 1.7.5 =
+* Added: #post_meta, #user_meta now works in all fields
+* Added: Various UI improvements
+
+= 1.7.4 =
+* Added: Improvements to visual builder modules
+* Bug Fix: Data grid tab JS error on click for read only grids
+
+= 1.7.3 =
+* Bug Fix: Repeatable section calculations on section add
+
+= 1.7.2 =
+* Added: Improved API / Database error handling
+* Added: Theme and MySQL variable added to system report
+* Changed: Framework detection in settings
+
+= 1.7.1 =
+* Bug Fix: mod_security fix
+
+= 1.7.0 =
+* Added: Data sources for select, checkbox, radio and fields supporting datalists
+* Added: Data source: Preset (Country, State etc)
+* Added: Data source: Post (Posts, Pages etc)
+* Added: Data source: Term (Category, Tag etc)
+* Added: Data source: User
+* Added: Data source: ACF (Field choices)
+* Added: New value based conditional logic If/Then/Else options
+* Changed: Various admin interface styling improvements
+* Bug Fix: Changed 'per page' functionality for compatibility with 5.4.2
+* Bug Fix: Tab previous and next buttons if no tabs present
+
+= 1.6.24 =
+* Bug Fix: Multi-form instance support for repeatable sections
+* Bug Fix: TinyMCE button color
+
+= 1.6.23 =
+* Added: Additional mod_security fixes to avoid OWASP rule matches
+
+= 1.6.22 =
+* Changed: Framework detection
+
+= 1.6.21 =
+* Bug Fix: Price format when setting sub totals
+
+= 1.6.20 =
+* Added: Action and Conditional Logic row copy
+* Bug Fix: Action priority sorting after filter
+
+= 1.6.19 =
+* Changed: Form calculation / e-commerce order 
+
+= 1.6.18 =
+* Added: Min and max checked on checkboxes 
+
+= 1.6.17 =
+* Changed: Field IDs on by default
+* Bug Fix: Correct previous logic on first index of conditionals
+
+= 1.6.16 =
+* Added: Conditional logic support for multi-selects
+* Bug Fix: Trigger on checkbox conditional logic change
+* Bug Fix: Debug console log clear
+
+= 1.6.15 =
+* Added: Improved SVG previews
+* Added: Improved NONCE error notice, now links to helpful KB article
+* Bug Fix: Submission page selector if submissions viewed from form selector
+
+= 1.6.14 =
+* Added: E-Commerce data to submissions CSV export
+* Changed: Default form order
+* Changed: CSV export date localized
+* Bug Fix: Submission edit and safe
+
+= 1.6.13 =
+* Added: Beaver Builder, Divi & Elementor modules to free version
+* Bug Fix: nouislider not liking extending String or Date classes
+
+= 1.6.12 =
+* Added: Button type: Default
+* Added: Email action filters
+* Bug Fix: Input mask focussing
+
+= 1.6.11 =
+* Bug Fix: wpautop function
+
+= 1.6.10 =
+* Added: Progress by tab index
+* Bug Fix: Data grid upload
+
+= 1.6.9 =
+* Added: Shortcode rendering in text editor, HTML and message fields
+* Added: Section vertical alignment
+* Changed: Consolidated server PHP objects
+* Bug Fix: Submissions form selector
+
+= 1.6.8 =
+* Bug Fix: European style thousand separators in prices
+
+= 1.6.7 =
+* Added: Additional translated strings
+* Added: Auto optimize of breakpoint widths (Removed Optimize buttons)
+* Changed: Import / export icons
+
+= 1.6.6 =
+* Added: Save & Close button in sidebar
+* Changed: Sidebar width
+
+= 1.6.5 =
+* Added: Pattern attribute for Email and URL field types
+* Changed: Gutenberg block registration from constant to string for WordPress plugin directory
+
+= 1.6.4 =
+* Changed: WooCommerce currency setting source
+
+= 1.6.3 =
+* Added: Calculation by variable group priority
+* Bug Fix: Removed blur event from calculation firing
+
+= 1.6.2 =
+* Bug Fix: File download NONCE in submissions
+
+= 1.6.1 =
+* Added: Seconds variables
+
+= 1.6.0 =
+* Added: Calculated fields - #calc(...)
+* Added: Calculated field debugging
+* Added: RTL support for admin interface and WS Form framework
+* Changed: Gutenberg block always uses WS Form framework
+* Bug Fix: Migrate tool
+* Bug Fix: Form upload drop release
+* Bug Fix: Submission date picker
+* Bug Fix: Debug log panel height
+
+= 1.5.37 =
+* Changed: Improved detection of Gutenberg editor
+
+= 1.5.36 =
+* Added: Revised Gutenberg block
+* Added: Live Preview
+* Bug Fix: Logout form template
+* Bug Fix: Server side currency to number functionality
+* Bug Fix: Submit count in debug console
+* Bug Fix: WS Form framework offset
+
+= 1.5.35 =
+* Added: Variable parser changes ready for calc fields
+
+= 1.5.34 =
+* Bug Fix: Customize preview
+
+= 1.5.33 =
+* Added: nonce_user_logged_out filter to keep nonces consistent
+
+= 1.5.32 =
+* Bug Fix: data-price elements
+
+= 1.5.31 =
+* Added: Pathname and query string tracking variables
+* Added: Expanded sidebar for submissions
+* Added: Ability to expose added post and user to subsequent actions
+* Added: Download published JSON form data
+* Changed: Style of messages
+
+= 1.5.30 =
+* Added: Change name of Alert field to Message
+
+= 1.5.29 =
+* Added: Alert field type
+* Added: Customize added to WS Form admin menu (Uses form being edited as preview)
+* Added: Font size customize option for section and fieldset labels
+* Added: Improved fallback form selection for preview 
+* Bug Fix: Customize preview
+
+= 1.5.28 =
+* Added: wpautop on "Set Content" conditional logic action for text editor fields
+
+= 1.5.27 =
+* Added: Variables option for Select, Checkboxes and Radios datagrids
+
+= 1.5.26 =
+* Added: Support for actions requiring repeatable submit data
+* Added: Support for Populate Using Action requiring repeatable submit data
+* Changed: Repeatable options now disable already mapped options
+* Bug Fix: Repeatable range slider in submission edit mode
+* Bug Fix: Prices with identical decimal and thousand separators
+
+= 1.5.25 =
+* Bug Fix: JSON encoding on submit
+
+= 1.5.24 =
+* Bug Fix: Thousand separator in prices
+
+= 1.5.23 =
+* Bug Fix: Delimiter on variables
+
+= 1.5.22 =
+* Added: #checkbox_label variable
+* Added: #radio_label variable
+* Changed: #select_option_text to support multiple selects
+
+= 1.5.21 =
+* Added: File upload progress bar
+* Added: Grid feature for checkboxes and radios
+* Added: Form submit, save, complete, error conditional logic
+* Added: New templates
+
+= 1.5.20 =
+* Bug Fix: Decimal separator in prices
+
+= 1.5.19 =
+* Bug fix: Bulk options to POST method
+
+= 1.5.18 =
+* Bug fix: WSF Plugins loaded action
+
+= 1.5.17 =
+* Added: Additional mouse and touch events
+
+= 1.5.16 =
+* Added: Media button filter
+* Changed: Improved security routines
+* Changed: Improved output escaping
+* Changed: Script and style enqueueing
+
+= 1.5.15 =
+* Added: Checkbox and radio image support
+
+= 1.5.14 =
+* Added: REST API testing on Welcome page
+* Added: Support for credit card fields
+* Changed: Improved settings styling
+
+= 1.5.13 =
+* Added: Improved hooks for actions
+
+= 1.5.12 =
+* Added: Enqueue core action
+
+= 1.5.11 =
+* Changed: Admin JS loaded in footer
+
+= 1.5.10 =
+* Added: Review system
+* Added: Deactivate feedback system
+
+= 1.5.9 =
+* Added: Auto enqueuing of WS Form JS/CSS
+
+= 1.5.8 =
+* Added: Cascading field support in repeaters
+* Added: Inline CSS and Minified CSS options
+* Changed: Default CSS expiry header set to 31536000 seconds
+
+= 1.5.7 =
+* Bug Fix: #select_option_text variable selector fix
+
+= 1.5.6 =
+* Bug Fix: Parse variable processing section repeatable index JS fix
+
+= 1.5.5 =
+* Added: #section_row_count initial fire
+* Added: #section_row_count import lookups
+
+= 1.5.4 =
+* Added: Section repeatable row count variable
+* Added: Section repeatable IF conditional logic
+
+= 1.5.3 =
+* Added: Set section repeatable row count
+* Changed: Section fieldset HTML
+
+= 1.5.2 =
+* Bug Fix: Form e-commerce calculation on locked forms
+f
+= 1.5.1 =
+* Added: Improved form caching for WooCommerce modals
+* Added: Responsive section repeatable and rating icons
+* Added: Font weight in appearance settings
+
+= 1.5.0 =
+* Added: Repeatable sections
+* Added: Conditional logic for repeatable sections
+* Added: E-Commerce calculations for repeatable sections
+* Added: New Add / Remove fields for repeatable sections
+* Added: New Move Up / Down fields for repeatable sections
+* Added: New icons field for repeatable sections
+* Added: Repeatable sections rendering in submissions and emails
+* Added: Draggable repeatable sections
+* Added: Repeatable editing in submissions
+* Added: New field event: On change or input
+* Added: Rating horizontal alignment / spacing
+* Added: Elementor 
+* Changed: Improved script enqueuing
+* Changed: Improved default color palette with improved contrast ratio
+* Bug fix: Empty file fields on save
+* Bug fix: Options caching on settings save
+* Bug fix: Event firing conditional logic improvements
+
+= 1.4.101 =
+* Bug Fix: PHP 5.6 legacy code fix in setup_from_post
+
+= 1.4.100 =
+* Bug Fix: Repeatable sections pre-release issue
+
+= 1.4.99 =
+* Bug Fix: Radio fields on tab validation
+
+= 1.4.98 =
+* Changed: Performance improvements
+* Bug Fix: CodeMirror field initialization in sidebar on hidden tabs
+
+= 1.4.97 =
+* Bug Fix: File real-time validation
+
+= 1.4.96 =
+* Added: Conditional logic firing on price total changes
+
+= 1.4.95 =
+* Changed: Improved ecommerce calculation locking for fixed price forms
+
+= 1.4.94 =
+* Changed: Latest version of inputmask
+
+= 1.4.93 =
+* Bug Fix: Input mask on currency fields
+
+= 1.4.92 =
+* Changed: Improved script enqueuing dependencies and versioning. Head / footer script enqueuing
+
+= 1.4.91 =
+* Bug Fix: Zero e-commerce amounts
+
+= 1.4.90 =
+* Bug Fix: Repeater down arrow on condensed columns
+* Bug Fix: Action data serialization on submit
+
+= 1.4.89 =
+* Bug Fix: Save notifications on rapid sidebar switching
+* Bug Fix: Required fields on hidden sections
+
+= 1.4.88 =
+* Changed: Improved underlying post data for previews
+
+= 1.4.87 =
+* Added: Tab validation
+* Added: Tab, section, field validation in conditional logic
+* Added: Workaround if other plugins have post loop bug in preview
+
+= 1.4.86 =
+* Bug Fix: Tab sorting
+
+= 1.4.85 =
+* Changed: Improved sidebar save
+
+= 1.4.84 =
+* Changed: Improved form statistics performance
+* Bug Fix: Safari file input check bug
+
+= 1.4.83 =
+* Changed: Updated jquery.inputmask to newer version
+
+= 1.4.82 =
+* Added: Select2 sidebar field type for WooCommerce add-on
+* Bug Fix: User ID logging on submissions
+
+= 1.4.81 =
+* Added: Range slider track filling
+
+= 1.4.80 =
+* Bug Fix: Cart total format fix
+
+= 1.4.79 =
+* Changed: Thousand separator inherited from e-commerce settings for price rendering
+
+= 1.4.78 =
+* Changed: Improved submit button targeting for disable / cursor on submit
+
+= 1.4.77 =
+* Bug Fix: Get currency function for different currency alignment
+
+= 1.4.76 =
+* Bug Fix: Action get fixed when user logged out
+
+= 1.4.75 =
+* Added: Additional WCAG compliance items
+* Added: Improved post management
+
+= 1.4.74 =
+* Changed: Improved form unlocking
+
+= 1.4.73 =
+* Changed: Divi changes for latest version
+* Changed: CSS changes for latest WP version
+* Bug Fix: Post setup on actions
+
+= 1.4.72 =
+* Added: Option population custom end points
+* Bug Fix: Welcome AJAX test step buttons
+* Bug Fix: Sidebar field option filtering
+
+= 1.4.71 =
+* Added: CSS expire headers option
+
+= 1.4.70 =
+* Changed: Search action form ID identification
+
+= 1.4.69 =
+* Bug Fix: Elementor front-end fix
+
+= 1.4.68 =
+* Bug Fix: Published form array fix
+
+= 1.4.67 =
+* Bug Fix: Rating field events
+* Bug Fix: Submission printing
+* Bug Fix: Bypass mod_security # sensitivity on Bluehost (Ticket: 18835473)
+
+= 1.4.66 =
+* Added: Show form if logged out
+* Bug Fix: Action firing with conditional logic
+
+= 1.4.65 =
+* Bug Fix: Action logging
+
+= 1.4.64 =
+* Added: Elementor widget
+* Added: Dark mode for debug console
+* Added: random_number and random_string functions
+
+= 1.4.63 =
+* Bug Fix: Multi-instance required field bypassing
+* Bug Fix: Message clearing on form reload
+
+= 1.4.62 =
+* Added: Input mask on date field type
+* Added: Year start and finish on date field type
+
+= 1.4.61 =
+* Bug Fix: Debug Console visibility
+
+= 1.4.60 =
+* Added: Legal field type
+* Added: Termageddon integration
+* Bug Fix: Meta data deletion
+
+= 1.4.59 =
+* Added: Beaver Builder module
+* Changed: Welcome screen improvements
+* Changed: Search with no keyword still runs search
+* Changed: Various CSS upgrades
+* Bug Fix: Framework detection performance improvements
+* Bug Fix: Scrolling on debug tab if third party scroll component installed
+
+= 1.4.58 =
+* Changed: Updated ARIA attributes
+* Changed: Shortcode copy improvement
+* Bug Fix: Time picker format
+
+= 1.4.57 =
+* Added: pattern attribute on date fields
+* Added: Shortcode copy feature
+* Changed: Updated ARIA attributes
+* Bug Fix: pattern removed from textarea
+* Bug Fix: Tracking variable parsing
+* Bug Fix: Form table tr
+
+= 1.4.56 =
+* Added: Date field level date and time formats
+* Added: Form unlock controls
+
+= 1.4.55 =
+* Added: WordPress 5.3 CSS improvements
+* Added: Date comparison conditional logic
+
+= 1.4.54 =
+* Added: WordPress 5.3 compatibility
+
+= 1.4.53 =
+* Added: Additional functions for reading / writing submit data
+* Bug Fix: Save button locking and functionality
+
+= 1.4.52 =
+* Changed: Action firing priority of redirect
+* Bug Fix: Field and section rendering in admin
+* Bug Fix: Data grid checkbox ID's
+
+= 1.4.51 =
+* Added: CSS modifications for static
+
+= 1.4.50 =
+* Added: Stats disabling
+
+= 1.4.49 =
+* Added: Context sensitive help icons
+* Bug Fix: Conditional logic row actions
+
+= 1.4.48 =
+* Added: wsf-form-canvas class
+
+= 1.4.47 =
+* Changed: wsf-form class for non standard form implementation styling
+* Bug Fix: Message clearing on multiple form instances
+
+= 1.4.46 =
+* Bug Fix: Action firing on forms with custom actions
+* Bug Fix: Sidebar AJAX population with blank options
+
+= 1.4.45 =
+* Changed: Email action priority
+* Changed: Search query var and pre_get_posts priority
+
+= 1.4.44 =
+* Added: Search field type and template
+* Added: 5.2.4 testing
+
+= 1.4.43 =
+* Added: Search action
+* Added: Functionality for WooCommerce add-on
+* Changed: Removed flex option
+* Changed: Email action from and to name encoding
+* Changed: Renamed Progress Bar to Progress
+
+= 1.4.42 =
+* Bug Fix: CSS update
+
+= 1.4.41 =
+* Added: Additional field styling options to fields
+* Added: Additional icons for KB articles
+* Changed: Removed promo from plain text email template
+* Bug Fix: Action repeater field ID repair on JSON import
+* Bug Fix: Cascading select and radio fields in iOS
+
+= 1.4.40 =
+* Added: Cascading select and radio fields
+* Bug Fix: Data grid label fix
+
+= 1.4.39 =
+* Changed: Support system integrated with Zendesk
+* Bug Fix: Rich editing and syntax highlight toggling in public.js
+
+= 1.4.38 =
+* Added: Action meta key variable default values
+
+= 1.4.37 =
+* Bug Fix: E-commerce cart total logging on fixed price payment buttons
+
+= 1.4.36 =
+* Bug Fix: Color variable fix
+
+= 1.4.35 =
+* Added: Color checkboxes and radios
+* Added: How to templates
+
+= 1.4.34 =
+* Bug Fix: Input validation method (Overcomes jQuery mobile issue)
+
+= 1.4.33 =
+* Changed: Improved e-commerce meta data rendering on submits
+
+= 1.4.32 =
+* Added: New user management support
+
+= 1.4.31 =
+* Added: Additional templates
+* Changed: Improved clarity of templates
+* Changed: Default required string
+* Bug Fix: Visual Editor keyup event
+
+= 1.4.30 =
+* Added: Additional templates
+* Changed: Dynamic template SVGs
+
+= 1.4.29 =
+* Added: Date picker styles
+* Changed: Improved template management
+
+= 1.4.28 =
+* Changed: Improved form stat additions
+* Changed: Form add hooks
+
+= 1.4.27 =
+* Bug Fix: Hidden visual text editor
+
+= 1.4.26 =
+* Changed: Form reset / clear conditional re-run
+* Bug Fix: Import form ID lookups
+
+= 1.4.25 =
+* Bug Fix: Price parsing fix
+
+= 1.4.24 =
+* Added: Exclude from email setting on fields
+* Changed: Improved presentation of price field values
+* Changed: Improved presentation of multi-select fields in submit sidebar and emails
+
+= 1.4.23 =
+* Added: Routines for WooCommerce
+* Added: Action log now uses action label
+* Added: Layout editor tutorial
+* Bug Fix: Drag and drop datagrid
+* Bug Fix: Drag and drop form upload
+
+= 1.4.22 =
+* Added: Field vertical alignment
+* Added: Button type styling classes
+
+= 1.4.21 =
+* Bug Fix: Minor bug fix on settings page
+
+= 1.4.20 =
+* Added: Routines for WooCommerce
+* Added: AJAX form firing toggle
+* Added: MutationObserver on forms to remove them from debug console
+* Changed: Improved descriptions for e-commerce variables
+* Changed: E-Commerce settings now pulled from WooCommerce if installed
+* Changed: Improved clarity on labels in layout editor
+* Changed: Reset button type now submit
+* Changed: Submit buttons set to disabled on lock
+* Bug Fix: Action firing with conditional logic
+
+= 1.4.19 =
+* Added: Cart price span variables
+* Changed: Better handling of cart price fields
+* Changed: Better event triggering
+* Changed: Improved cart calculation
+* Bug Fix: Password meter reset on password delete
+* Bug Fix: Variables pop-up
+
+= 1.4.18 =
+* Added: Routines for WooCommerce
+* Bug Fix: HTML escaping in select, radio and checkbox values
+* Bug Fix: Screen option saving on submissions
+
+= 1.4.17 =
+* Bug Fix: DB fix
+
+= 1.4.16 =
+* Added: Submission count in admin menu
+* Bug Fix: Action firing by conditional logic
+* Bug Fix: Divi styling
+
+= 1.4.15 =
+* Added: New functionality to support Salesforce add-on
+* Bug Fix: Admin icon fix
+* Bug Fix: Export warning
+
+= 1.4.14 =
+* Bug Fix: WS Form icon rendering
+* Bug Fix: Additional third party plugin CSS overrides
+
+= 1.4.13 =
+* Bug Fix: reCAPTCHA size attribute (normal / compact)
+
+= 1.4.12 =
+* Bug Fix: Max upload size JS error fix
+
+= 1.4.11 =
+* Bug Fix: Plain text email fix
+
+= 1.4.10 =
+* Bug Fix: Price floating point fix
+
+= 1.4.9 =
+* Bug Fix: Improved reCAPTCHA / signature conditional logic on hidden sections
+
+= 1.4.8 =
+* Added: Additional blog date / time variables
+* Bug Fix: Select conditional logic actions
+
+= 1.4.7 =
+* Bug Fix: Correct formatting on visual editor email templates
+
+= 1.4.6 =
+* Bug Fix: Improvements to file upload routines
+
+= 1.4.5 =
+* Added: Support for featured images on posts
+
+= 1.4.4 =
+* Bug Fix: Signature real time validation event triggering
+
+= 1.4.3 =
+* Added: Disabled submit on enter key by default. Can be re-enabled in form settings
+
+= 1.4.2 =
+* Added: Populate functionality for improved date functionality
+* Bug Fix: Import of uninstalled field types
+
+= 1.4.1 =
+* Added: New e-commerce variables
+* Changed: Improved date / color field native support
+* Changed: Date jQuery component destroyed if date field made readonly
+* Changed: Additional fixed classes added for styling
+* Changed: E-Commerce calculation fired on conditional login processing
+* Bug Fix: Text editor not saving unless keypress occurs
+* Bug Fix: Signature required status
+* Bug Fix: Minor conditional logic styling fix
+
+= 1.4.0 =
+* Added: Divi visual builder component
+* Bug Fix: PRO badges
+* Bug Fix: Lower bulk action dropdowns
+
+= 1.3.35 =
+* Added: Support for list subs (Google Sheets)
+* Added: Variables in message action
+* Changed: Improved CSV export
+* Bug Fix: Checkbox event firing
+
+= 1.3.34 =
+* Added: CSS for toggle checkboxes
+* Bug Fix: Conditional actions
+* Bug Fix: Blank emails ignored in email action
+
+= 1.3.33 =
+* Changed: Improved #email_submission rendering
+
+= 1.3.32 =
+* Changed: Improved performance for visibility conditional logic
+
+= 1.3.31 =
+* Bug Fix: Field required bypassing
+
+= 1.3.30 =
+* Bug Fix: Fixed validation on hidden select, radio and checkboxes
+* Bug Fix: Foundation hidden field fix
+
+= 1.3.29 =
+* Bug Fix: wpautop fix on text editor field
+
+= 1.3.28 =
+* Added: #select_option_text variable
+* Bug Fix: wp_footer enqueue priority
+
+= 1.3.27 =
+* Bug Fix: Preview with form limits
+
+= 1.3.26 =
+* Bug Fix: DB key fixes
+* Bug Fix: Encryption constant bug fix for older PHP versions
+
+= 1.3.25 =
+* Bug Fix: Improved handling of user_can_richedit flag
+
+= 1.3.24 =
+* Changed: Improved API error handling
+* Bug Fix: Submission delete with deleted file attachment
+
+= 1.3.23 =
+* Added: Additional RTL classes
+* Bug Fix: EDD update class fixes
+
+= 1.3.22 =
+* Added: RTL classes
+
+= 1.3.21 =
+* Added: Field types can now be clicked to add them
+* Bug Fix: Export of select, radio and checkbox array data
+
+= 1.3.20 =
+* Bug Fix: Add-on templates (PRO)
+* Bug Fix: Preview
+
+= 1.3.19 =
+* Added: Instant and smooth scrolling for messages and next/previous tab buttons. Offset for scroll.
+
+= 1.3.18 =
+* Bug fix: Form validation fixes
+
+= 1.3.17 =
+* Bug fix: Signature redraw in Bootstrap (PRO)
+
+= 1.3.16 =
+* Bug fix: REST API path fix
+
+= 1.3.15 =
+* Changed: Improved next/previous functionality
+* Bug fix: Validation on hidden fields with min / max values
+
+= 1.3.14 =
+* Bug Fix: Windows incorrectly reports MIME types for CSV files. Changed file format detection.
+
+= 1.3.13 =
+* Added: #user_meta variables
+
+= 1.3.12 =
+* Bug Fix: Multiple calls to shortcode in wp_head caused rendering errors in preview mode
+
+= 1.3.11 =
+* Added: Locate feature now checks posts as well as pages and widgets
+* Changed: Preview template reset to automatic on theme change
+* Bug Fix: Submit button width on free version
+
+= 1.3.10 =
+* Bug Fix: Date time picker loading improvement
+
+= 1.3.9 =
+* Changed: Optimized form config on public side
+* Changed: Improved nonce handling
+* Changed: Improve password security script handling
+
+= 1.3.8 =
+* Bug Fix: Icon
+
+= 1.3.7 =
+* WordPress 5.1 testing
+* Changed: Improved API error handling
+
+= 1.3.6 =
+* Added: HKDF-SHA256 AES-256-CTR encryption of submission data (PRO)
+
+= 1.3.5 =
+* Bug Fix: Honeypot field Abide validation in Foundation
+* Bug Fix: Removed dependency on mime_content_type()
+* Bug Fix: Hidden required field fixes
+
+= 1.3.4 =
+* Bug Fix: # encoding in URL data
+* Bug Fix: Password field language data
+* Bug Fix: Preview wp_query posts_per_page attribute override
+
+= 1.3.3 =
+* Added: Dashboard for submission statistics widget
+* Changed: Added ID's to submissions list
+* Bug Fix: Screen options
+* Bug Fix: Form & submission status links 
+
+= 1.3.2 =
+* Added: Locate where forms are embedded in pages and widgets
+
+= 1.3.1 =
+
+* Added: WPForms migration tool (PRO)
+* Added: Deduplication option on fields
+* Added: Various WS Form framework styling improvements
+* Bug Fix: Improvements to migration import engine
+
+= 1.3.0 =
+
+* Added: Gravity Forms and Visual Form Builder Pro migration tool (PRO)
+* Added: Rating field type (PRO)
+* Added: Form stats capturing and display on form list (PRO)
+* Added: Submission starred states
+* Added: Submission viewed states
+* Added: Submission count limiting (PRO)
+* Added: Form scheduling (PRO)
+* Added: Form only show if user logged in (PRO)
+* Added: Visual editor and HTML editor options for textarea field types (PRO)
+* Added: Ability to hide fields
+* Added: Spam filter level selector
+* Added: Ability to set value of text editor fields using conditional logic (PRO)
+* Added: Select All on checkbox fields
+* Changed: Improved visual editor and HTML editor rendering
+* Changed: Improved database indexing
+* Changed: ID's and/or submission counts added for form lists
+* Bug Fix: Default color value
+* Bug Fix: Sentence population
+* Bug Fix: Improved form reload handling
+* Bug Fix: Submit duration
+
+= 1.2.20 =
+
+* Bug fix: Support for websites using MooTools
+
+= 1.2.19 =
+
+* Added: Custom Endpoint action (PRO)
+
+= 1.2.18 =
+
+* Added: New functions and filters for manipulating forms prior to rendering (PRO)
+* Added: Form, tab and section ID's added to sidebars
+* Added: Custom form action
+
+= 1.2.17 =
+
+* Bug fix: Full width class fix on buttons
+
+= 1.2.16 =
+
+* Added: Ability to remove full width class on buttons
+* Bug fix: Removed currency symbols from default price select, radio and checkbox fields (PRO)
+
+= 1.2.15 =
+
+* Added: Form import / export on form list page
+* Added: E-Commerce price range field type (PRO)
+* Added: E-Commerce form examples (PRO)
+* Changed: Improved email field validation for progress bars (PRO)
+* Bug fix: Form trash
+
+= 1.2.14 =
+
+* Added: Custom field attributes
+* Changed: Password field added to core (PRO)
+* Bug fix: Improved field dependency adjustments on delete
+* Bug fix: Margin on text editor fields
+
+= 1.2.13 =
+
+* Added: Various improvements to mobile / wordpress.com styling and layout
+* Added: New loader style
+
+= 1.2.12 =
+
+* Added: Improved admin styling for WordPress websites hosted on wordpress.com
+* Added: New functionality for supporting Authorize.Net Accept payments (PRO)
+* Added: Improved population of phone numbers (PRO) and IP addresses
+* Bug fix: Various bug fixes for improved stability
+
+= 1.2.11 =
+
+* Added: New JavaScript trigger events
+
+= 1.2.10 =
+
+* Bug fix: Save form state (PRO)
+
+= 1.2.9 =
+
+* Changed: Improved detection of page templates for previewing
+
+= 1.2.8 =
+
+* Added: Option to show action misconfiguration errors client side
+* Bug fix: Multi-site debug console (PRO)
+* Bug fix: Removed dependency on pluggable.php
+
+= 1.2.7 =
+
+* Changed: Improved debugger fonts
+* Bug fix: Chrome draggable bug
+* Bug fix: DataGrid rows per page bug
+
+= 1.2.6 =
+
+* Changed: Improved framework detection script
+* Added: E-Commerce price field alignment (PRO)
+* Bug fix: Divider and spacer field types for Foundation
+
+= 1.2.5 =
+
+* Added: Image setting for sidebar
+* Changed: Action updated ready for new payment add-ons (PRO)
+
+= 1.2.4 =
+
+* Changed: Improved text alignment for e-commerce fields (PRO)
+
+= 1.2.3 =
+
+* Changed: Improved debug population for checkbox and radio fields (PRO)
+* Bug fix: Price text justified on cart detail fields
+* Bug fix: Bootstrap 3 radio and checkbox fixes
+
+= 1.2.2 =
+
+* Added: Ability to run any action via conditional logic (PRO)
+* Changed: Improved variables help
+* Bug fix: One time use fields no longer copied
+* Bug fix: Server side action handler
+
+= 1.2.1 =
+* Bug fix: Form validation
+
+= 1.2.0 =
+* Added: New form level conditional logic, including 'On validated'
+* Added: New progress bar conditional logic
+* Added: Improved notifications for required field settings
+* Added: E-Commerce functionality (PRO)
+* Added: Support for e-commerce payment methods (PRO)
+* Changed: Improved conditional logic event firing
+* Changed: Improved upgrade and add-on functionality
+* Changed: Additions to CSS to fix problems caused by third CSS implementations
+* Bug fix: Submission tab labels
+* Bug fix: jQuery UI CSS overrides
+* Bug fix: Improved form preview functionality and permalink detection for API calls
+* Bug fix: Data grid labels for groups rendering
+* Bug fix: Submit meta data overwrite
+* Bug fix: Bootstrap wrappers
+* Bug fix: Foundation 6.4+ tabs
+* Bug fix: Tab and section copying now excludes single use fields (e.g. reCAPTCHA)
+
+= 1.1.11 =
+* Added: Disabled icon on sections
+* Changed: Additions to CSS to fix problems caused by third CSS implementations
+* Bug fix: DB inserts for form and field
+* Bug fix: Sidebar conditions
+
+= 1.1.10 =
+* Changed: Improved admin CSS to fix problems caused by third CSS implementations
+
+= 1.1.9 =
+* Changed: Submit save now retains actions
+* Bug fix: Progress bar and data grid rows
+* Bug fix: Conditional logic auto page add
+
+= 1.1.8 =
+* Bug Fix: Color picker CDN path
+* Bug Fix: Signature progress bar
+* Bug Fix: File download API paths for permalinks not using postname
+
+= 1.1.7 =
+* Added: Gutenberg support for forthcoming Wordpress 5
+* Added: Keyboard shortcuts in submissions editor
+* Bug fix: Word and character count validation
+
+= 1.1.6 =
+* Added: Support for new PDF add on
+* Changed: Improved email template
+
+= 1.1.5 =
+* Bug Fix: Akismet header return
+
+= 1.1.4 =
+* Added: Option to include file and signature fields in emails (PRO)
+* Added: Image optimization and MIME type selector in file field type (PRO)
+* Bug Fix: Blank signature detection (PRO)
+* Bug Fix: Publish button fix on JSON form upload
+
+= 1.1.3 =
+* Added: Signature cropping, JPG background colors and inline embedding in emails (PRO)
+* Added: Option to exclude empty fields in email submissions
+* Changed: Improved built in email template
+* Bug Fix: Improved variable parsing
+
+= 1.1.2 =
+* Added: Client side date variables
+* Added: Automatic handling of hidden required fields
+
+= 1.1.1 =
+* Changed: Optimized client side JavaScript
+* Bug Fix: reCAPTCHA field (PRO)
+* Bug Fix: Signature components loaded via CDN and hidden with conditional logic (PRO)
+
+= 1.1.0 =
+* Added: Email action to basic edition
+* Added: Data Export Request action to basic edition
+* Added: Data Erasure Request action to basic edition
+* Changed: Activation script improvements
+
+= 1.0.9 =
+* Added: Link to support tickets in support sidebar
+* Bug Fix: Tab deletion
+
+= 1.0.8 =
+* Added: Support for Campaign Monitor plugin (PRO)
+* Added: Visible field ID's in advanced mode
+* Bug Fix: Field API
+
+= 1.0.7 =
+* Added: Support for Zapier plugin (PRO)
+* Bug Fix: Improved API security
+
+= 1.0.6 =
+* Added: Input masks
+* Added: CDN / Local options for external jquery libraries (PRO)
+* Bug Fix: Select conditional was not firing on 'Is Selected' (PRO)
+
+= 1.0.5 =
+* Added: More variables that reference customize appearance values
+* Added: Improved Welcome screen error detection to ensure WordPress is installed correctly
+* Added: Run hook function now supports firing a message or redirect on complete (PRO)
+* Added: Support for new Slack add-on (PRO)
+* Bug Fix: Error handling bug fix on public script
+
+= 1.0.4 =
+* Added: Conversion Tracking action for Google and Facebook (PRO)
+* Added: Run JavaScript action allows JS to be fired on form save and submit (PRO)
+* Bug Fix: Section legend custom masks
+
+= 1.0.3 =
+* Added: New preview options in settings
+* Bug Fix: Improved Gutenberg support
+* Bug Fix: Support for sub-domain websites
+
+= 1.0.2 =
+* Added: Progress bar field type and variable functionality (PRO)
+* Added: reCAPTCHA Version 3 support integrated with WS Form spam system (PRO)
+* Added: Additional user variables
+* Changed: Performance improvements
+* Changed: Improved mobile version of form builder
+* Bug Fix: Message action clear function
+* Bug Fix: WordPress editor integration
+
+= 1.0.1 =
+* Added: Gutenberg support
+* Added: Integrated knowledgebase search
+* Changed: Performance improvements
+
+= 1.0.0 =
+* Initial release.

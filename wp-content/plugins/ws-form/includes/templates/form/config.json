@@ -1,0 +1,890 @@
+{"template_categories": [
+
+	{	
+
+		"id"			:	"application",
+		"label" 		: 	"Applications",
+		"file_path"		:	"application/",
+		"templates"		:	[
+
+			{
+				"id"					:	"affiliate-application",
+				"label" 				: 	"Affiliate Application",
+				"file_json"				:	"wsf-form-affiliate-application.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"college-enrollment",
+				"label" 				: 	"College Enrollment",
+				"file_json"				:	"wsf-form-college-enrollment.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"employment-application",
+				"label" 				: 	"Employment Application",
+				"file_json"				:	"wsf-form-employment-application.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"membership-application",
+				"label" 				: 	"Membership Application",
+				"file_json"				:	"wsf-form-membership-application.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"rental-application",
+				"label" 				: 	"Rental Application",
+				"file_json"				:	"wsf-form-rental-application.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"volunteer-application",
+				"label" 				: 	"Volunteer Application",
+				"file_json"				:	"wsf-form-volunteer-application.json",
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"booking",
+		"label" 		: 	"Booking",
+		"file_path"		:	"booking/",
+		"templates"		:	[
+
+			{
+				"id"					:	"repeatable-booking",
+				"label" 				: 	"Booking",
+				"file_json"				:	"wsf-form-repeatable-booking.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"event-registration",
+				"label" 				: 	"Event Registration",
+				"file_json"				:	"wsf-form-event-registration.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"request-appointment",
+				"label" 				: 	"Request Appointment",
+				"file_json"				:	"wsf-form-request-appointment.json",
+				"preview_url"			:	true,
+				"popular"				:	1
+			},
+
+			{
+				"id"					:	"rsvp",
+				"label" 				: 	"RSVP",
+				"file_json"				:	"wsf-form-rsvp.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"travel-booking",
+				"label" 				: 	"Travel Booking",
+				"file_json"				:	"wsf-form-travel-booking.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"calculator",
+		"label" 		: 	"Calculators",
+		"file_path"		:	"calculator/",
+		"templates"		:	[
+
+			{
+				"id"					:	"age",
+				"label" 				: 	"Age",
+				"file_json"				:	"wsf-form-age.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"basic-arithmetic",
+				"label" 				: 	"Basic Arithmetic",
+				"file_json"				:	"wsf-form-basic-arithmetic.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"bmi",
+				"label" 				: 	"Body Mass Index",
+				"file_json"				:	"wsf-form-bmi.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"car-payment",
+				"label" 				: 	"Car Payment",
+				"file_json"				:	"wsf-form-car-payment.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"compound-interest",
+				"label" 				: 	"Compound Interest",
+				"file_json"				:	"wsf-form-compound-interest.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"cost-by-area",
+				"label" 				: 	"Cost By Area",
+				"file_json"				:	"wsf-form-cost-by-area.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"daily-calories",
+				"label" 				: 	"Daily Calories",
+				"file_json"				:	"wsf-form-daily-calories.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"debt-to-income-ratio",
+				"label" 				: 	"Debt to Income Ratio",
+				"file_json"				:	"wsf-form-debt-to-income-ratio.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"final-grade",
+				"label" 				: 	"Final Grade",
+				"file_json"				:	"wsf-form-final-grade.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"gpa",
+				"label" 				: 	"Grade Point Average",
+				"file_json"				:	"wsf-form-gpa.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"length-conversion",
+				"label" 				: 	"Length Conversion",
+				"file_json"				:	"wsf-form-length-conversion.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"life-insurance",
+				"label" 				: 	"Life Insurance",
+				"file_json"				:	"wsf-form-life-insurance.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"math-variables",
+				"label" 				: 	"Math Variables",
+				"file_json"				:	"wsf-form-math-variables.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"mortgage",
+				"label" 				: 	"Mortgage",
+				"file_json"				:	"wsf-form-mortgage.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"mortgage-cost",
+				"label" 				: 	"Mortgage + Costs",
+				"file_json"				:	"wsf-form-mortgage-costs.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"paycheck",
+				"label" 				: 	"Paycheck",
+				"file_json"				:	"wsf-form-paycheck.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"percentage",
+				"label" 				: 	"Percentage",
+				"file_json"				:	"wsf-form-percentage.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"roi",
+				"label" 				: 	"Return on Investment",
+				"file_json"				:	"wsf-form-roi.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"savings",
+				"label" 				: 	"Savings",
+				"file_json"				:	"wsf-form-savings.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"tip",
+				"label" 				: 	"Tip",
+				"file_json"				:	"wsf-form-tip.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"contact",
+		"label" 		: 	"Contact",
+		"file_path"		:	"contact/",
+		"templates"		:	[
+
+			{
+				"id"					:	"bug-report",
+				"label" 				: 	"Bug Report",
+				"file_json"				:	"wsf-form-bug-report.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"complaint",
+				"label" 				: 	"Complaint",
+				"file_json"				:	"wsf-form-complaint.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"contact-us",
+				"label" 				: 	"Contact Us",
+				"file_json"				:	"wsf-form-contact-us.json",
+				"preview_url"			:	true,
+				"popular"				:	true
+			},
+
+			{
+				"id"					:	"contact-us-extended",
+				"label" 				: 	"Contact Us Extended",
+				"file_json"				:	"wsf-form-contact-us-extended.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"support-request",
+				"label" 				: 	"Support Request",
+				"file_json"				:	"wsf-form-support-request.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"user-information",
+				"label" 				: 	"User Information",
+				"file_json"				:	"wsf-form-user-information.json",
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"e-commerce",
+		"label" 		: 	"E-Commerce",
+		"file_path"		:	"e-commerce/",
+		"templates"		:	[
+
+			{
+				"id"					:	"donation",
+				"label" 				: 	"Donation",
+				"file_json"				:	"wsf-form-donation.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"e-commerce",
+				"label" 				: 	"E-Commerce",
+				"file_json"				:	"wsf-form-e-commerce.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"e-commerce-advanced",
+				"label" 				: 	"E-Commerce Advanced",
+				"file_json"				:	"wsf-form-e-commerce-advanced.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"gift-card-order",
+				"label" 				: 	"Gift Card Order",
+				"file_json"				:	"wsf-form-gift-card-order.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"gdrp",
+		"label" 		: 	"GDPR",
+		"file_path"		:	"gdpr/",
+		"templates"		:	[
+
+			{
+				"id"					:	"data-erasure-request",
+				"label" 				: 	"Data Erasure Request",
+				"file_json"				:	"wsf-form-gdpr-data-erasure-request.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"data-export-request",
+				"label" 				: 	"Data Export Request",
+				"file_json"				:	"wsf-form-gdpr-data-export-request.json",
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"health",
+		"label" 		: 	"Health",
+		"file_path"		:	"health/",
+		"templates"		:	[
+
+			{
+				"id"					:	"counseling-informed-consent",
+				"label" 				: 	"Counseling Informed Consent",
+				"file_json"				:	"wsf-form-counseling-informed-consent.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"exercise-log",
+				"label" 				: 	"Exercise Log",
+				"file_json"				:	"wsf-form-exercise-log.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"gym-registration",
+				"label" 				: 	"Gym Registration",
+				"file_json"				:	"wsf-form-gym-registration.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"medical-release",
+				"label" 				: 	"Medical Release",
+				"file_json"				:	"wsf-form-medical-release.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"human-resources",
+		"label" 		: 	"Human Resources",
+		"file_path"		:	"human-resources/",
+		"templates"		:	[
+
+			{
+				"id"					:	"candidate-evaluation",
+				"label" 				: 	"Candidate Evaluation",
+				"file_json"				:	"wsf-form-candidate-evaluation.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"check-incheck-out",
+				"label" 				: 	"Check In/Check Out",
+				"file_json"				:	"wsf-form-check-incheck-out.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"disciplinary",
+				"label" 				: 	"Disciplinary",
+				"file_json"				:	"wsf-form-disciplinary.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"discrimination-complaint",
+				"label" 				: 	"Discrimination Complaint",
+				"file_json"				:	"wsf-form-discrimination-complaint.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"emergency-contact",
+				"label" 				: 	"Emergency Contact",
+				"file_json"				:	"wsf-form-emergency-contact.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"employee-review",
+				"label" 				: 	"Employee Review",
+				"file_json"				:	"wsf-form-employee-review.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"vacation-request",
+				"label" 				: 	"Vacation Request",
+				"file_json"				:	"wsf-form-vacation-request.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"sales",
+		"label" 		: 	"Sales",
+		"file_path"		:	"sales/",
+		"templates"		:	[
+
+			{
+				"id"					:	"invoice-request",
+				"label" 				: 	"Invoice Request",
+				"file_json"				:	"wsf-form-invoice-request.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"order-form",
+				"label" 				: 	"Order",
+				"file_json"				:	"wsf-form-order-form.json",
+				"preview_url"			:	true,
+				"popular"				:	true
+			},
+
+			{
+				"id"					:	"repeatable-order-form",
+				"label" 				: 	"Order + Repeater",
+				"file_json"				:	"wsf-form-repeatable-order-form.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"request-quote",
+				"label" 				: 	"Request Quote",
+				"file_json"				:	"wsf-form-request-quote.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"sales-lead",
+				"label" 				: 	"Sales Lead",
+				"file_json"				:	"wsf-form-sales-lead.json",
+				"preview_url"			:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"signup",
+		"label" 		: 	"Signup",
+		"file_path"		:	"signup/",
+		"templates"		:	[
+
+			{
+				"id"					:	"contest-entry",
+				"label" 				: 	"Contest Entry",
+				"file_json"				:	"wsf-form-contest-entry.json",
+				"preview_url"			:	true,
+				"popular"				:	true
+			},
+
+			{
+				"id"					:	"electronic-signature",
+				"label" 				: 	"Electronic Signature",
+				"file_json"				:	"wsf-form-electronic-signature.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"newsletter-signup",
+				"label" 				: 	"Newsletter Signup",
+				"file_json"				:	"wsf-form-newsletter-signup.json",
+				"preview_url"			:	true,
+				"popular"				:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"survey",
+		"label" 		: 	"Surveys",
+		"file_path"		:	"survey/",
+		"templates"		:	[
+
+			{
+				"id"					:	"cancellation-survey",
+				"label" 				: 	"Cancellation Survey",
+				"file_json"				:	"wsf-form-cancellation-survey.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"conversational",
+				"label" 				: 	"Conversational",
+				"file_json"				:	"wsf-form-conversational.json",
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"customer-satisfaction",
+				"label" 				: 	"Customer Satisfaction",
+				"file_json"				:	"wsf-form-customer-satisfaction.json",
+				"preview_url"			:	true,
+				"popular"				:	true
+			},
+
+			{
+				"id"					:	"feedback",
+				"label" 				: 	"Feedback",
+				"file_json"				:	"wsf-form-feedback.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"survey",
+				"label" 				: 	"Survey",
+				"file_json"				:	"wsf-form-survey.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"testimonial",
+				"label" 				: 	"Testimonial",
+				"file_json"				:	"wsf-form-testimonial.json",
+				"preview_url"			:	true,
+				"pro_required"			:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"demo",
+		"label" 		: 	"Demos",
+		"file_path"		:	"demo/",
+		"templates"		:	[
+
+			{
+				"id"					:	"average-rating",
+				"label" 				: 	"Average Rating",
+				"file_json"				:	"wsf-form-average-rating.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"button",
+				"label" 				: 	"Buttons",
+				"file_json"				:	"wsf-form-button.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"cascade-select-and-radio-fields",
+				"label" 				: 	"Cascade Fields",
+				"file_json"				:	"wsf-form-cascade-select-and-radio-fields.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"conditional-logic",
+				"label" 				: 	"Conditional Logic",
+				"file_json"				:	"wsf-form-conditional-logic.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"responsive-checkbox-grid",
+				"label" 				: 	"Checkbox Grid",
+				"file_json"				:	"wsf-form-responsive-checkbox-grid.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"custom-email-html",
+				"label" 				: 	"Custom Email HTML",
+				"file_json"				:	"wsf-form-custom-email-html.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"date-from-to",
+				"label" 				: 	"Date From / To",
+				"file_json"				:	"wsf-form-date-from-to.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"email-validation",
+				"label" 				: 	"Email Validation",
+				"file_json"				:	"wsf-form-email-validation.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"file-upload-dropzonejs",
+				"label" 				: 	"File Upload + DropzoneJS",
+				"file_json"				:	"wsf-form-file-upload-dropzonejs.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"file-upload-progress",
+				"label" 				: 	"File Upload + Progress",
+				"file_json"				:	"wsf-form-file-upload-progress.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"file-upload-preview",
+				"label" 				: 	"File Upload + Preview",
+				"file_json"				:	"wsf-form-file-upload-preview.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"first-last-name",
+				"label" 				: 	"First + Last Name",
+				"file_json"				:	"wsf-form-first-last-name.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"form-abandonment",
+				"label" 				: 	"Form Abandonment",
+				"file_json"				:	"wsf-form-form-abandonment.json",
+				"pro_required"			:	true,
+				"preview_url"			:	false
+			},
+
+			{
+				"id"					:	"google-address",
+				"label" 				: 	"Google Address",
+				"file_json"				:	"wsf-form-google-address.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"google-map",
+				"label" 				: 	"Google Map",
+				"file_json"				:	"wsf-form-google-map.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"message",
+				"label" 				: 	"Messages",
+				"file_json"				:	"wsf-form-message.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"prefix-suffix",
+				"label" 				: 	"Prefix / Suffix",
+				"file_json"				:	"wsf-form-prefix-suffix.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"progress-bar",
+				"label" 				: 	"Progress Bar",
+				"file_json"				:	"wsf-form-progress-bar.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"quiz-calc",
+				"label" 				: 	"Quiz + #calc",
+				"file_json"				:	"wsf-form-quiz-calc.json",
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"responsive-radio-grid",
+				"label" 				: 	"Radio Grid",
+				"file_json"				:	"wsf-form-responsive-radio-grid.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"create-a-form-recipient-selector",
+				"label" 				: 	"Recipient Selector",
+				"file_json"				:	"wsf-form-create-a-form-recipient-selector.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"repeater",
+				"label" 				: 	"Repeater",
+				"file_json"				:	"wsf-form-repeatable-sections-demo.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"repeatable-add-remove",
+				"label" 				: 	"Repeater + / -",
+				"file_json"				:	"wsf-form-repeatable-add-remove.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"repeatable-icons",
+				"label" 				: 	"Repeater Icons",
+				"file_json"				:	"wsf-form-repeatable-section-icons.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"repeater-row-count",
+				"label" 				: 	"Repeater Row Count",
+				"file_json"				:	"wsf-form-repeatable-field-to-row-count.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"repeatable-move-up-move-down",
+				"label" 				: 	"Repeater Up / Down",
+				"file_json"				:	"wsf-form-repeatable-move-up-move-down.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"rgba",
+				"label" 				: 	"RGBA Sliders",
+				"file_json"				:	"wsf-form-rgba-sliders.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"save-continue",
+				"label" 				: 	"Save & Continue",
+				"file_json"				:	"wsf-form-save-continue.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"search",
+				"label" 				: 	"Search",
+				"file_json"				:	"wsf-form-search.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"select2",
+				"label" 				: 	"Select2",
+				"file_json"				:	"wsf-form-select2.json",
+				"pro_required"			:	true,
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"style-checkboxes",
+				"label" 				: 	"Style Checkboxes",
+				"file_json"				:	"wsf-form-style-checkboxes.json",
+				"preview_url"			:	true
+			},
+
+			{
+				"id"					:	"style-radios",
+				"label" 				: 	"Style Radios",
+				"file_json"				:	"wsf-form-style-radios.json",
+				"preview_url"			:	true
+			}
+		]
+	}
+]}

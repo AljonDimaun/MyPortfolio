@@ -1,0 +1,223 @@
+{"template_categories": [
+
+	{	
+		"id"			:	"basic",
+		"label" 		: 	"Basic",
+		"file_path"		:	"basic/",
+		"templates"		:	[
+
+			{
+				"id"					:	"email-confirmation",
+				"label" 				: 	"Email Confirmation",
+				"file_json"				:	"wsf-section-email-confirmation.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"choice",
+		"label" 		: 	"Choice",
+		"file_path"		:	"choice/",
+		"templates"		:	[
+
+			{
+				"id"					:	"color-swatches",
+				"label" 				: 	"Color Swatches",
+				"file_json"				:	"wsf-section-color-swatches.json",
+				"preview_url"			:	false
+			},
+
+			{
+				"id"					:	"date-range",
+				"label" 				: 	"Date Range",
+				"file_json"				:	"wsf-section-date-range.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"future-date-selects",
+				"label" 				: 	"Future Date (Selects)",
+				"file_json"				:	"wsf-section-future-date-selects.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"past-date-selects",
+				"label" 				: 	"Past Date (Selects)",
+				"file_json"				:	"wsf-section-past-date-selects.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"advanced",
+		"label" 		: 	"Advanced",
+		"file_path"		:	"advanced/",
+		"templates"		:	[
+
+			{
+				"id"					:	"file-upload-progress",
+				"label" 				: 	"File Upload + Progress",
+				"file_json"				:	"wsf-section-file-upload-progress.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"google-map-search",
+				"label" 				: 	"Google Map + Search",
+				"file_json"				:	"wsf-section-google-map-search.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"password-confirmation",
+				"label" 				: 	"Password Confirmation",
+				"file_json"				:	"wsf-section-password-confirmation.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"buttons",
+		"label" 		: 	"Buttons",
+		"file_path"		:	"buttons/",
+		"templates"		:	[
+
+			{
+				"id"					:	"gdrp-submit",
+				"label" 				: 	"GDPR Submit",
+				"file_json"				:	"wsf-section-gdpr-submit.json",
+				"preview_url"			:	false,
+				"pro_required"			:	false
+			},
+
+			{
+				"id"					:	"gdrp-submit-save",
+				"label" 				: 	"GDPR Submit + Save",
+				"file_json"				:	"wsf-section-gdpr-submit-save.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"tab-navigation",
+				"label" 				: 	"Tab Navigation",
+				"file_json"				:	"wsf-section-tab-navigation.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			}
+		]
+	},
+
+	{	
+		"id"			:	"contact",
+		"label" 		: 	"Contact",
+		"file_path"		:	"contact/",
+		"templates"		:	[
+
+			{
+				"id"					:	"address-us",
+				"label" 				: 	"Address (US)",
+				"file_json"				:	"wsf-section-address-us.json",
+				"preview_url"			:	false
+			},
+
+			{
+				"id"					:	"address-international",
+				"label" 				: 	"Address (International)",
+				"file_json"				:	"wsf-section-address-international.json",
+				"preview_url"			:	false
+			},
+
+			{
+				"id"					:	"name",
+				"label" 				: 	"Name",
+				"file_json"				:	"wsf-section-name.json",
+				"preview_url"			:	false
+			},
+
+			{
+				"id"					:	"personal-information",
+				"label" 				: 	"Personal Information",
+				"file_json"				:	"wsf-section-personal-information.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"social-media",
+				"label" 				: 	"Social Media",
+				"file_json"				:	"wsf-section-social-media.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			}
+		]
+	},
+
+	{	
+
+		"id"			:	"e-commerce",
+		"label" 		: 	"E-Commerce",
+		"file_path"		:	"e-commerce/",
+		"templates"		:	[
+
+			{
+				"id"					:	"billing-shipping-us",
+				"label" 				: 	"Billing & Shipping (US)",
+				"file_json"				:	"wsf-section-billing-shipping-us.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"billing-shipping-international",
+				"label" 				: 	"Billing & Shipping (Intl)",
+				"file_json"				:	"wsf-section-billing-shipping-international.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"booking",
+				"label" 				: 	"Booking",
+				"file_json"				:	"wsf-section-booking.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"customer-information",
+				"label" 				: 	"Customer Information",
+				"file_json"				:	"wsf-section-customer-information.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"order-details",
+				"label" 				: 	"Order Details",
+				"file_json"				:	"wsf-section-order-details.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			},
+
+			{
+				"id"					:	"promo-code",
+				"label" 				: 	"Promo Code",
+				"file_json"				:	"wsf-section-promo-code.json",
+				"preview_url"			:	false,
+				"pro_required"			:	true
+			}
+		]
+	}
+]}
